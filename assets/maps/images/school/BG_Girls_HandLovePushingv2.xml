@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BG_Girls_HandLovePushingv2.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Appear0000" x="40" y="40" width="46" height="52" frameX="-52" frameY="-36" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0001" x="176" y="40" width="58" height="63" frameX="-40" frameY="-34" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0002" x="324" y="40" width="66" height="68" frameX="-29" frameY="-33" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0003" x="480" y="40" width="70" height="69" frameX="-20" frameY="-32" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0004" x="640" y="40" width="69" height="66" frameX="-14" frameY="-31" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0005" x="799" y="40" width="63" height="58" frameX="-11" frameY="-31" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0006" x="40" y="199" width="52" height="46" frameX="-12" frameY="-31" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0007" x="182" y="199" width="63" height="58" frameX="-4" frameY="-19" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0008" x="335" y="199" width="69" height="66" frameX="0" frameY="-9" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Appear0009" x="494" y="199" width="70" height="69" frameX="0" frameY="0" frameWidth="98" frameHeight="101"/>
+	<SubTexture name="Grab0000" x="654" y="199" width="69" height="67"/>
+	<SubTexture name="Grab0001" x="654" y="199" width="69" height="67"/>
+	<SubTexture name="Grab0002" x="813" y="199" width="59" height="61" frameX="-5" frameY="-3" frameWidth="69" frameHeight="67"/>
+	<SubTexture name="Grab0003" x="813" y="199" width="59" height="61" frameX="-5" frameY="-3" frameWidth="69" frameHeight="67"/>
+	<SubTexture name="Grab0004" x="40" y="358" width="53" height="57" frameX="-8" frameY="-5" frameWidth="69" frameHeight="67"/>
+	<SubTexture name="Grab0005" x="40" y="358" width="53" height="57" frameX="-8" frameY="-5" frameWidth="69" frameHeight="67"/>
+	<SubTexture name="Pushing0000" x="183" y="358" width="78" height="75"/>
+	<SubTexture name="Pushing0001" x="351" y="358" width="75" height="72" frameX="-2" frameY="-2" frameWidth="78" frameHeight="75"/>
+	<SubTexture name="Pushing0002" x="516" y="358" width="73" height="70" frameX="-3" frameY="-3" frameWidth="78" frameHeight="75"/>
+	<SubTexture name="Pushing0003" x="679" y="358" width="75" height="72" frameX="-2" frameY="-2" frameWidth="78" frameHeight="75"/>
+	<SubTexture name="Release0000" x="844" y="358" width="50" height="48" frameX="0" frameY="0" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0001" x="844" y="358" width="50" height="48" frameX="0" frameY="0" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0002" x="40" y="523" width="57" height="53" frameX="0" frameY="-2" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0003" x="40" y="523" width="57" height="53" frameX="0" frameY="-2" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0004" x="187" y="523" width="57" height="56" frameX="-2" frameY="-5" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0005" x="187" y="523" width="57" height="56" frameX="-2" frameY="-5" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0006" x="334" y="523" width="55" height="57" frameX="-4" frameY="-7" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0007" x="334" y="523" width="55" height="57" frameX="-4" frameY="-7" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0008" x="479" y="523" width="51" height="56" frameX="-23" frameY="-33" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0009" x="620" y="523" width="52" height="58" frameX="-34" frameY="-47" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0010" x="762" y="523" width="48" height="54" frameX="-47" frameY="-65" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0011" x="900" y="523" width="49" height="54" frameX="-51" frameY="-81" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0012" x="40" y="671" width="54" height="60" frameX="-52" frameY="-87" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0013" x="40" y="671" width="54" height="60" frameX="-58" frameY="-103" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0014" x="40" y="671" width="54" height="60" frameX="-66" frameY="-120" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0015" x="184" y="671" width="58" height="62" frameX="-70" frameY="-132" frameWidth="128" frameHeight="194"/>
+	<SubTexture name="Release0016" x="332" y="671" width="0" height="0" frameX="-2" frameY="2" frameWidth="128" frameHeight="194"/>
+</TextureAtlas>
