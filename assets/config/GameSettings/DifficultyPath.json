@@ -1,0 +1,28 @@
+{
+    "DifficultyNames": [
+        "Easy", 
+        "Normal", 
+        "Hard", 
+        "Very-hard", 
+        "Extra-hard", 
+        "Fucked", 
+        "Crazy", 
+        "Insane", 
+        "Judgment", 
+        "Hell", 
+        "Impossible"
+    ],
+    "DifficultyDataNames": [
+        "-easy", 
+        "", 
+        "-hard", 
+        "-very-hard", 
+        "-extra-hard", 
+        "-fucked", 
+        "-crazy", 
+        "-insane", 
+        "-judgment", 
+        "-hell", 
+        "-Impossible"
+    ]
+}

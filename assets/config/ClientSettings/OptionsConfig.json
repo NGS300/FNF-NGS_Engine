@@ -1,0 +1,9 @@
+{
+    "lanePlayer": true,
+    "laneOpponent": false,
+    "laneTransparencyScroll": null,
+    "ScrollLineY": null,
+    "laneTransparencyScore": null,
+    "UseNewNoteSytle": true,
+    "UseKadeEngineHitNote": false
+}

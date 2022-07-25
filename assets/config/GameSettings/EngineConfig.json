@@ -1,0 +1,16 @@
+{
+    "CacheOnlyMusicsLoadingNumber": 104.5,
+    "CacheOnlyImagesLoadingNumber": 99.5,
+    "CacheAllLoadingNumber": 47.5,
+    "DirectoryFoldersIcons":[
+        "Disabled", 
+        "Vanilla-icons", 
+        "JP-icons", 
+        "juniorxefao-icons", 
+        "KkpassaroxX-icons", 
+        "Maty-icons"
+    ],
+    "noStrumHoldReaction": true,
+    "strumNumMove": 20,
+    "camMoveNum": 15
+}
