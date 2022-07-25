@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NGELogos.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NGSLogoBumpin10000" x="7236" y="955" width="809" height="808" frameX="-22" frameY="-16" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10001" x="6974" y="4479" width="849" height="849"/>
+	<SubTexture name="NGSLogoBumpin10002" x="6974" y="4479" width="849" height="849"/>
+	<SubTexture name="NGSLogoBumpin10003" x="2190" y="5208" width="824" height="824" frameX="-14" frameY="-10" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10004" x="2190" y="5208" width="824" height="824" frameX="-14" frameY="-10" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10005" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10006" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10007" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10008" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10009" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10010" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10011" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10012" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10013" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin10014" x="4837" y="5219" width="819" height="819" frameX="-17" frameY="-12" frameWidth="849" frameHeight="849"/>
+	<SubTexture name="NGSLogoBumpin20000" x="60" y="6394" width="775" height="775" frameX="-22" frameY="-17" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20001" x="7236" y="60" width="815" height="815"/>
+	<SubTexture name="NGSLogoBumpin20002" x="7236" y="60" width="815" height="815"/>
+	<SubTexture name="NGSLogoBumpin20003" x="5736" y="5911" width="791" height="791" frameX="-13" frameY="-10" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20004" x="5736" y="5911" width="791" height="791" frameX="-13" frameY="-10" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20005" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20006" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20007" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20008" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20009" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20010" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20011" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20012" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20013" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin20014" x="4837" y="6118" width="784" height="784" frameX="-17" frameY="-13" frameWidth="815" frameHeight="815"/>
+	<SubTexture name="NGSLogoBumpin2Old0000" x="3970" y="5718" width="787" height="786" frameX="-22" frameY="-16" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0001" x="1284" y="5034" width="826" height="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0002" x="1284" y="5034" width="826" height="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0003" x="6906" y="5408" width="802" height="802" frameX="-14" frameY="-10" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0004" x="6906" y="5408" width="802" height="802" frameX="-14" frameY="-10" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0005" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0006" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0007" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0008" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0009" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0010" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0011" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0012" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0013" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin2Old0014" x="3094" y="5718" width="796" height="796" frameX="-17" frameY="-12" frameWidth="826" frameHeight="825"/>
+	<SubTexture name="NGSLogoBumpin30000" x="2495" y="1260" width="1066" height="1066" frameX="-29" frameY="-26" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30001" x="2495" y="60" width="1120" height="1120"/>
+	<SubTexture name="NGSLogoBumpin30002" x="2495" y="60" width="1120" height="1120"/>
+	<SubTexture name="NGSLogoBumpin30003" x="6066" y="1231" width="1088" height="1089" frameX="-17" frameY="-15" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30004" x="6066" y="1231" width="1088" height="1089" frameX="-17" frameY="-15" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30005" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30006" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30007" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30008" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30009" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30010" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30011" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30012" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30013" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin30014" x="4888" y="1239" width="1080" height="1080" frameX="-21" frameY="-19" frameWidth="1120" frameHeight="1120"/>
+	<SubTexture name="NGSLogoBumpin3Old0000" x="5970" y="3514" width="911" height="910" frameX="-22" frameY="-16" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0001" x="7084" y="3443" width="957" height="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0002" x="7084" y="3443" width="957" height="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0003" x="3411" y="3485" width="929" height="928" frameX="-14" frameY="-10" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0004" x="3411" y="3485" width="929" height="928" frameX="-14" frameY="-10" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0005" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0006" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0007" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0008" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0009" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0010" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0011" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0012" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0013" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin3Old0014" x="2408" y="3508" width="922" height="922" frameX="-17" frameY="-12" frameWidth="957" frameHeight="956"/>
+	<SubTexture name="NGSLogoBumpin40000" x="6607" y="6290" width="1038" height="584" frameX="-22" frameY="-16" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40001" x="5736" y="5219" width="1090" height="612"/>
+	<SubTexture name="NGSLogoBumpin40002" x="5736" y="5219" width="1090" height="612"/>
+	<SubTexture name="NGSLogoBumpin40003" x="60" y="5719" width="1058" height="595" frameX="-14" frameY="-10" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40004" x="60" y="5719" width="1058" height="595" frameX="-14" frameY="-10" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40005" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40006" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40007" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40008" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40009" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40010" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40011" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40012" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40013" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin40014" x="1198" y="6112" width="1050" height="591" frameX="-17" frameY="-12" frameWidth="1090" frameHeight="612"/>
+	<SubTexture name="NGSLogoBumpin50000" x="60" y="3475" width="952" height="951" frameX="-22" frameY="-16" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50001" x="3411" y="2406" width="1000" height="999"/>
+	<SubTexture name="NGSLogoBumpin50002" x="3411" y="2406" width="1000" height="999"/>
+	<SubTexture name="NGSLogoBumpin50003" x="60" y="2425" width="970" height="970" frameX="-14" frameY="-10" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50004" x="60" y="2425" width="970" height="970" frameX="-14" frameY="-10" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50005" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50006" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50007" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50008" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50009" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50010" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50011" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50012" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50013" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin50014" x="7084" y="2400" width="963" height="963" frameX="-17" frameY="-12" frameWidth="1000" frameHeight="999"/>
+	<SubTexture name="NGSLogoBumpin60000" x="1191" y="2400" width="1038" height="1037" frameX="-23" frameY="-18" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60001" x="6066" y="60" width="1090" height="1091"/>
+	<SubTexture name="NGSLogoBumpin60002" x="6066" y="60" width="1090" height="1091"/>
+	<SubTexture name="NGSLogoBumpin60003" x="1294" y="1261" width="1059" height="1059" frameX="-14" frameY="-11" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60004" x="1294" y="1261" width="1059" height="1059" frameX="-14" frameY="-11" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60005" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60006" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60007" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60008" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60009" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60010" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60011" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60012" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60013" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin60014" x="60" y="1294" width="1051" height="1051" frameX="-17" frameY="-13" frameWidth="1090" frameHeight="1091"/>
+	<SubTexture name="NGSLogoBumpin6Old0000" x="2309" y="2406" width="1022" height="1022" frameX="-22" frameY="-16" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0001" x="3695" y="1253" width="1073" height="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0002" x="3695" y="1253" width="1073" height="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0003" x="4848" y="2399" width="1042" height="1042" frameX="-14" frameY="-10" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0004" x="4848" y="2399" width="1042" height="1042" frameX="-14" frameY="-10" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0005" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0006" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0007" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0008" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0009" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0010" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0011" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0012" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0013" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin6Old0014" x="5970" y="2400" width="1034" height="1034" frameX="-17" frameY="-12" frameWidth="1073" frameHeight="1073"/>
+	<SubTexture name="NGSLogoBumpin70000" x="60" y="5034" width="1144" height="605" frameX="-25" frameY="-7" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70001" x="5691" y="4504" width="1203" height="635"/>
+	<SubTexture name="NGSLogoBumpin70002" x="5691" y="4504" width="1203" height="635"/>
+	<SubTexture name="NGSLogoBumpin70003" x="2349" y="4510" width="1168" height="618" frameX="-15" frameY="-4" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70004" x="2349" y="4510" width="1168" height="618" frameX="-15" frameY="-4" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70005" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70006" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70007" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70008" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70009" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70010" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70011" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70012" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70013" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin70014" x="3597" y="5026" width="1160" height="612" frameX="-18" frameY="-6" frameWidth="1203" frameHeight="635"/>
+	<SubTexture name="NGSLogoBumpin80000" x="4888" y="60" width="1098" height="1099" frameX="-26" frameY="-23" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80001" x="60" y="60" width="1154" height="1154"/>
+	<SubTexture name="NGSLogoBumpin80002" x="60" y="60" width="1154" height="1154"/>
+	<SubTexture name="NGSLogoBumpin80003" x="1294" y="60" width="1121" height="1121" frameX="-15" frameY="-14" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80004" x="1294" y="60" width="1121" height="1121" frameX="-15" frameY="-14" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80005" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80006" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80007" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80008" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80009" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80010" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80011" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80012" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80013" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpin80014" x="3695" y="60" width="1113" height="1113" frameX="-19" frameY="-17" frameWidth="1154" frameHeight="1154"/>
+	<SubTexture name="NGSLogoBumpinMain0000" x="1092" y="4292" width="1177" height="662" frameX="-22" frameY="-16" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0001" x="1092" y="3517" width="1236" height="695"/>
+	<SubTexture name="NGSLogoBumpinMain0002" x="1092" y="3517" width="1236" height="695"/>
+	<SubTexture name="NGSLogoBumpinMain0003" x="4420" y="3521" width="1200" height="675" frameX="-14" frameY="-10" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0004" x="4420" y="3521" width="1200" height="675" frameX="-14" frameY="-10" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0005" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0006" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0007" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0008" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0009" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0010" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0011" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0012" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0013" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+	<SubTexture name="NGSLogoBumpinMain0014" x="4420" y="4276" width="1191" height="670" frameX="-17" frameY="-12" frameWidth="1236" frameHeight="695"/>
+</TextureAtlas>
