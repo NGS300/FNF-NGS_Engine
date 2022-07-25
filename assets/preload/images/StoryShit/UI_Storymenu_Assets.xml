@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="UI_Storymenu_Assets.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EASY0000" x="447" y="60" width="196" height="65"/>
+	<SubTexture name="HARD0000" x="60" y="206" width="211" height="66"/>
+	<SubTexture name="NORMAL0000" x="60" y="60" width="307" height="66"/>
+	<SubTexture name="PADLOCK0000" x="642" y="205" width="67" height="93"/>
+	<SubTexture name="VERY HARD0000" x="351" y="206" width="211" height="66"/>
+	<SubTexture name="arrow Left Idle0000" x="437" y="378" width="40" height="73"/>
+	<SubTexture name="arrow Left Pressed0000" x="60" y="352" width="48" height="85"/>
+	<SubTexture name="arrow Right Idle0000" x="315" y="352" width="42" height="74"/>
+	<SubTexture name="arrow Right Pressed0000" x="188" y="352" width="47" height="85"/>
+</TextureAtlas>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MainMenuIcon_Assets.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Console_Idle0000" x="60" y="60" width="720" height="401"/>
+	<SubTexture name="Console_MouseOver0000" x="860" y="60" width="720" height="401"/>
+	<SubTexture name="Discord_Idle0000" x="2936" y="60" width="300" height="300"/>
+	<SubTexture name="Discord_MouseOver0000" x="3316" y="60" width="300" height="300"/>
+	<SubTexture name="Exit_Idle0000" x="2936" y="440" width="300" height="300"/>
+	<SubTexture name="Exit_MouseOver0000" x="3316" y="440" width="300" height="300"/>
+	<SubTexture name="GameJolt_Idle0000" x="820" y="541" width="300" height="300"/>
+	<SubTexture name="GameJolt_MouseOver0000" x="1200" y="541" width="300" height="300"/>
+	<SubTexture name="Gamebanana_Idle0000" x="60" y="541" width="300" height="300"/>
+	<SubTexture name="Gamebanana_MouseOver0000" x="440" y="541" width="300" height="300"/>
+	<SubTexture name="Github_Idle0000" x="1580" y="570" width="300" height="300"/>
+	<SubTexture name="Github_MouseOver0000" x="1960" y="570" width="300" height="300"/>
+	<SubTexture name="GoOptions_Idle0000" x="2340" y="570" width="300" height="300"/>
+	<SubTexture name="GoOptions_MouseOver0000" x="2720" y="820" width="300" height="300"/>
+	<SubTexture name="NoExit0000" x="3100" y="820" width="300" height="300"/>
+	<SubTexture name="NoPause0000" x="3480" y="820" width="300" height="300"/>
+	<SubTexture name="Reset_Idle0000" x="60" y="921" width="300" height="300"/>
+	<SubTexture name="Reset_MouseOver0000" x="440" y="921" width="300" height="300"/>
+	<SubTexture name="Skip_Idle0000" x="2298" y="60" width="558" height="430"/>
+	<SubTexture name="Skip_MouseOver0000" x="1660" y="60" width="558" height="430"/>
+	<SubTexture name="SubOptions_Idle0000" x="820" y="921" width="300" height="300"/>
+	<SubTexture name="SubOptions_MouseOver0000" x="1200" y="921" width="300" height="300"/>
+	<SubTexture name="Youtube_Idle0000" x="1580" y="950" width="300" height="300"/>
+	<SubTexture name="Youtube_MouseOver0000" x="1960" y="950" width="300" height="300"/>
+</TextureAtlas>
