@@ -1,0 +1,41 @@
+{
+    "imageDirectory": "charWeeks/5/Parents_Christmas_Assets",
+    "hpColor": "0xFFaf66ce",
+    "positionX": -500, 
+    "characterAnimationsTypes":[{
+        "frameName": "Parent Idle",
+        "animLooped": true
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "Parent Left Note Dad",
+        "offsets":[-30, 16]
+    },{
+        "animationName": "actionLEFT-alt",
+        "frameName": "Parent Left Note Mom",
+        "offsets":[-30, 15]
+    },{
+        "animationName": "actionUP",
+        "frameName": "Parent Up Note Dad",
+        "offsets":[-47, 24]
+    },{
+        "animationName": "actionUP-alt",
+        "frameName": "Parent Up Note Mom",
+        "offsets":[-47, 24]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "Parent Down Note Dad",
+        "offsets":[-31, -29]
+    },{
+        "animationName": "actionDOWN-alt",
+        "frameName": "Parent Down Note Mom",
+        "offsets":[-30, -27]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "Parent Right Note Dad",
+        "offsets":[-1, -23]
+    },{
+        "animationName": "actionRIGHT-alt",
+        "frameName": "Parent Right Note Mom",
+        "offsets":[-1, -24]
+    }]
+}

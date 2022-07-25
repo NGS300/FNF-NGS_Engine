@@ -1,0 +1,13 @@
+{
+    "imageDirectory": "gfChars/agent_gf",
+    "scaleX": 0.45,
+    "scaleY": 0.45,
+    "characterAnimationsTypes":[{
+        "frameName": "gf idle",
+        "animLooped": true
+    },{
+        "animationName": "idleSpinShirt",
+        "frameName": "gf alt idle",
+        "animLooped": true
+    }]
+}

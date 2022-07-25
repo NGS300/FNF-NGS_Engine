@@ -1,0 +1,10 @@
+idle, 0, 0
+singLEFT, 41, 5
+singLEFTmiss, 62, 54
+singUP, -29, 27
+singUPmiss, -18, 67
+singDOWN, -27, -76
+singDOWNmiss, -49, -36
+singRIGHT, -107, -8
+singRIGHTmiss, -85, 31
+singShoot, -35, 38

@@ -1,0 +1,25 @@
+{
+    "imageDirectory": "charWeeks/2/Monster_Assets",
+    "hpColor": "0xFFf3ff6e",
+    "positionY": 100,
+    "characterAnimationsTypes":[{
+        "frameName": "Monster Idle",
+        "animLooped": true
+    },{
+        "frameName": "Monster Left NOTE",
+        "animationName": "actionLEFT",
+        "offsets":[-51, 0]
+    },{
+        "frameName": "Monster Up NOTE",
+        "animationName": "actionUP",
+        "offsets":[-20, 46]
+    },{
+        "frameName": "Monster Down NOTE",
+        "animationName": "actionDOWN",
+        "offsets":[-40, -40]
+    },{
+        "frameName": "Monster Right NOTE",
+        "animationName": "actionRIGHT",
+        "offsets":[-30, 0]
+    }]
+}

@@ -1,0 +1,24 @@
+{
+    "imageDirectory": "charWeeks/4/Mom_Smouth_Hair_Assets",
+    "hpColor": "0xFFd8558e",
+    "characterAnimationsTypes":[{
+        "frameName": "Mom Idle",
+        "animLooped": true
+    },{
+        "frameName": "Mom Left NOTE",
+        "animationName": "actionLEFT",
+        "offsets":[255, -4]
+    },{
+        "frameName": "Mom Up NOTE",
+        "animationName": "actionUP",
+        "offsets":[70, 45]
+    },{
+        "frameName": "Mom Down NOTE",
+        "animationName": "actionDOWN",
+        "offsets":[50, -200]
+    },{
+        "frameName": "Mom Right NOTE",
+        "animationName": "actionRIGHT",
+        "offsets":[5, -52]
+    }]
+}

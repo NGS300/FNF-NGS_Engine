@@ -1,0 +1,20 @@
+{
+    "imageDirectory": "gfChars/gfTankman",
+    "animStarted": "danceRight",
+    "characterAnimationsTypes":[{
+        "animationName": "danceLeft",
+        "frameName": "GF Dancing at Gunpoint",
+        "offsets": [0, -9],
+        "frameNums": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+    },{
+        "animationName": "danceRight",
+        "frameName": "GF Dancing at Gunpoint",
+        "offsets": [0, -9],
+        "frameNums": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    },{
+        "animationName": "cry",
+        "frameName": "GF Crying at Gunpoint",
+        "offsets": [-2, -21],
+        "frameNums": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }]
+}

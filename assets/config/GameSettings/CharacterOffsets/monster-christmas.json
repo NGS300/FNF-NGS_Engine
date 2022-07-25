@@ -1,0 +1,25 @@
+{
+    "imageDirectory": "charWeeks/5/Monster_Christmas_Assets",
+    "hpColor": "0xFFf3ff6e",
+    "positionY": 130,
+    "characterAnimationsTypes":[{
+        "frameName": "Monster Christmas Idle",
+        "animLooped": true
+    },{
+        "frameName": "Monster Christmas Left",
+        "animationName": "actionLEFT",
+        "offsets":[-51, 10]
+    },{
+        "frameName": "Monster Christmas Up",
+        "animationName": "actionUP",
+        "offsets":[-20, 53]
+    },{
+        "frameName": "Monster Christmas Down",
+        "animationName": "actionDOWN",
+        "offsets":[-40, -91]
+    },{
+        "frameName": "Monster Christmas Right",
+        "animationName": "actionRIGHT",
+        "offsets":[-30, 7]
+    }]
+}

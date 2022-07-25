@@ -1,0 +1,33 @@
+{
+    "imageDirectory": "charWeeks/2/Spooky_Kids_Assets",
+    "animStarted": "danceRight",
+    "hpColor": "0xFFd57e00",
+    "positionY": 200,
+    "characterAnimationsTypes":[{
+        "animationName": "danceLeft",
+        "frameName": "Spooky Idle Dance",
+        "frameRate": 12,
+        "frameNums": [0, 2, 6]
+    },{
+        "animationName": "danceRight",
+        "frameName": "Spooky Idle Dance",
+        "frameRate": 12,
+        "frameNums": [8, 10, 12, 14]
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "Spooky Left Note",
+        "offsets":[105, -18]
+    },{
+        "animationName": "actionUP",
+        "frameName": "Spooky Up Note",
+        "offsets":[-22, 24]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "Spooky Down Note",
+        "offsets":[-75, -139]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "Spooky Right Note",
+        "offsets":[-145, -12]
+    }]
+}

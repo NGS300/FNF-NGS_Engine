@@ -1,0 +1,48 @@
+{
+    "BoyfriendsBackgroundsColors":[
+        "0xFF50c878",
+        "RED",
+        "0xFF00bfff",
+        "0xFF5456ba",
+        "0xFFe28206",
+        "0xFF405CFF",
+        "0xFF405CFF",
+        "0xFF323232"
+    ],
+    "BoyfriendsNames":[
+        "Boyfriend",
+        "Boyfriend Style",
+        "Boyfriend Christmas",
+        "Boyfriend Pixel",
+        "Boyfriend Holding GF",
+        "Boyfriend Verse",
+        "Boyfriend Intense",
+        "Boyfriend Sans"
+    ],
+    "Boyfriends":[
+        "bf",
+        "bf-style",
+        "bf-christmas",
+        "bf-pixel",
+        "bf-holding-the-gf",
+        "bf-50Years-Phase1",
+        "bf-50Years-Phase2",
+        "bf-50Years-Phase3"
+        
+    ],
+    "Opponents":[
+        "gf",
+        "dad",
+        "spooky",
+        "monster",
+        "pico",
+        "mom",
+        "mom-style",
+        "parents",
+        "monster-christmas",
+        "senpai-pixel",
+        "senpai-angry-pixel",
+        "spirit-pixel",
+        "tankmanCaptain"
+    ]
+}

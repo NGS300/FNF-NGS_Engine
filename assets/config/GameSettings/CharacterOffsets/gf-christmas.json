@@ -1,0 +1,54 @@
+{
+    "imageDirectory": "gfChars/christmas/gfChristmas",
+    "animStarted": "danceRight",
+    "hpColor": "0xFFA5004D",
+    "characterAnimationsTypes":[{
+        "animationName": "danceLeft",
+        "frameName": "GF Dancing Beat",
+        "offsets": [0, -9],
+        "frameNums": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+    },{
+        "animationName": "danceRight",
+        "frameName": "GF Dancing Beat",
+        "offsets": [0, -9],
+        "frameNums": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    },{
+        "animationName": "cry",
+        "frameName": "gf sad",
+        "offsets": [-2, -21],
+        "frameNums": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },{
+        "animationName": "cheer",
+        "frameName": "GF Cheer"
+    },{
+        "animationName": "scared",
+        "frameName": "GF FEAR",
+        "offsets": [-2, -17]
+    },{
+        "animationName": "hairBlow",
+        "frameName": "GF Dancing Beat Hair blowing",
+        "offsets": [45, -8],
+        "frameNums": [0, 1, 2, 3]
+    },{
+        "animationName": "hairFall",
+        "frameName": "GF Dancing Beat Hair Landing",
+        "offsets": [0, -9],
+        "frameNums": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "GF left note",
+        "offsets": [0, -19]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "GF Down Note",
+        "offsets": [0, -20]
+    },{
+        "animationName": "actionUP",
+        "frameName": "GF Up Note",
+        "offsets": [0, 4]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "GF Right Note",
+        "offsets": [0, -20]
+    }]
+}

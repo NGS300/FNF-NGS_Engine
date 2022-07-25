@@ -1,0 +1,18 @@
+{
+    "imageDirectory": "bfChars/pixel/BoyFriend_Pixel_Death",
+    "animStarted": "firstDeath",
+    "flipX": true,
+    "characterAnimationsTypes":[{
+        "animationName": "deathLoop",
+        "frameName": "BF Dead Loop",
+        "animLooped": true,
+        "offsets": [-37]
+    },{
+        "animationName": "firstDeath",
+        "frameName": "BF Pixel Dies"
+    },{
+        "animationName": "deathConfirm",
+        "frameName": "BF Dead Confirm",
+        "offsets": [-37]
+    }]
+}

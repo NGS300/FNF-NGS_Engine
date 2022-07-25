@@ -1,0 +1,26 @@
+{
+    "imageDirectory": "charWeeks/1/Dad_Assets",
+    "hpColor": "0xFFaf66ce",
+    "camposX": 400,
+    "holdTimer": 6,
+    "characterAnimationsTypes":[{
+        "frameName": "Dad Dance",
+        "animLooped": true
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "Dad LEFT NOTE",
+        "offsets":[-3, 9]
+    },{
+        "animationName": "actionUP",
+        "frameName": "Dad UP NOTE",
+        "offsets":[-3, 50]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "Dad DOWN NOTE",
+        "offsets":[-3, -30]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "Dad RIGHT NOTE",
+        "offsets":[-3, 26]
+    }]
+}

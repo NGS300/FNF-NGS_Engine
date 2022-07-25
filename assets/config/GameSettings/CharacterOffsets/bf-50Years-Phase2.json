@@ -1,0 +1,54 @@
+{
+    "imageDirectory": "bfChars/BoyFriend_50Years_Intense_Assets",
+    "hpColor": "0xFF405CFF",
+    "flipX": true,
+    "characterAnimationsTypes":[{
+        "frameName": "BF Intense Dance",
+        "animLooped": true,
+        "offsets": [-5]
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "BF INTENSE NOTE LEFT0",
+        "offsets": [1, -6]
+    },{
+        "animationName": "actionLEFTmiss",
+        "frameName": "BF INTENSE NOTE LEFT MISS",
+        "offsets": [2, 18]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "BF INTENSE NOTE DOWN0",
+        "offsets": [-18, -42]
+    },{
+        "animationName": "actionDOWNmiss",
+        "frameName": "BF INTENSE NOTE DOWN MISS",
+        "offsets": [-19, 4]
+    },{
+        "animationName": "actionUP",
+        "frameName": "BF INTENSE NOTE UP0",
+        "offsets": [-50, 32]
+    },{
+        "animationName": "actionUPmiss",
+        "frameName": "BF INTENSE NOTE UP MISS",
+        "offsets": [-39, 28]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "BF INTENSE NOTE RIGHT0",
+        "offsets": [-38, -7]
+    },{
+        "animationName": "actionRIGHTmiss",
+        "frameName": "BF INTENSE NOTE RIGHT MISS",
+        "offsets": [-39, 20]
+    },{
+        "animationName": "dodge",
+        "frameName": "BF Intense Dodge",
+        "offsets": [-5, -8]
+    },{
+        "frameName": "BF Tankman UGH0",
+        "animationName": "Ugh",
+        "offsets":[-4, 149]
+    },{
+        "frameName": "BF Tankman UGH MISS",
+        "animationName": "UGHmiss",
+        "offsets":[-12, 186]
+    }]
+}

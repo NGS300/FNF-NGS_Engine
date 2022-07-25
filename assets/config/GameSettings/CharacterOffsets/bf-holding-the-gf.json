@@ -1,0 +1,56 @@
+{
+    "imageDirectory": "bfChars/BoyFriend_Holding_Girlfriend_Assets",
+    "deathAnim": "bf-holding-the-gf",
+    "hpColor": "0xFF31b0d1",
+    "flipX": true,
+    "midPointY": -160,
+    "characterAnimationsTypes":[{
+        "animationName": "deathLoop",
+        "frameName": "Couple Dead Loop",
+        "animLooped": true,
+        "offsets": [37, -3]
+    },{
+        "animationName": "firstDeath",
+        "frameName": "Couple Dies",
+        "offsets": [37, 14]
+    },{
+        "animationName": "deathConfirm",
+        "frameName": "Couple Dead Confirm",
+        "offsets": [37, 28]
+    },{
+        "frameName": "Couple Idle Dance",
+        "animLooped": true
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "Couple NOTE LEFT0",
+        "offsets": [12, 7]
+    },{
+        "animationName": "actionLEFTmiss",
+        "frameName": "Couple NOTE LEFT MISS0",
+        "offsets": [12, 7]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "Couple NOTE DOWN0",
+        "offsets": [-10, -10]
+    },{
+        "animationName": "actionDOWNmiss",
+        "frameName": "Couple NOTE DOWN MISS0",
+        "offsets": [-10, -10]
+    },{
+        "animationName": "actionUP",
+        "frameName": "Couple NOTE UP0",
+        "offsets": [-29, 10]
+    },{
+        "animationName": "actionUPmiss",
+        "frameName": "Couple NOTE UP MISS0",
+        "offsets": [-29, 10]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "Couple NOTE RIGHT0",
+        "offsets": [-41, 23]
+    },{
+        "animationName": "actionRIGHTmiss",
+        "frameName": "Couple NOTE RIGHT MISS0",
+        "offsets": [-41, 23]
+    }]
+}

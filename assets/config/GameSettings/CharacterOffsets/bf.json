@@ -1,0 +1,72 @@
+{
+    "imageDirectory": "bfChars/BoyFriend_Assets",
+    "hpColor": "0xFF31b0d1",
+    "flipX": true,
+    "characterAnimationsTypes":[{
+        "animationName": "deathLoop",
+        "frameName": "BF Dead Loop",
+        "animLooped": true,
+        "offsets": [24]
+    },{
+        "animationName": "firstDeath",
+        "frameName": "BF Dies",
+        "offsets": [24, 7]
+    },{
+        "animationName": "deathConfirm",
+        "frameName": "BF Dead Confirm",
+        "offsets": [24, 65]
+    },{
+        "frameName": "BF Idle Dance",
+        "animLooped": true,
+        "offsets": [-5]
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "BF NOTE LEFT0",
+        "offsets": [0, -5]
+    },{
+        "animationName": "actionLEFTmiss",
+        "frameName": "BF NOTE LEFT MISS",
+        "offsets": [2, 18]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "BF NOTE DOWN0",
+        "offsets": [-10, -51]
+    },{
+        "animationName": "actionDOWNmiss",
+        "frameName": "BF NOTE DOWN MISS",
+        "offsets": [-5, -22]
+    },{
+        "animationName": "actionUP",
+        "frameName": "BF NOTE UP0",
+        "offsets": [-50, 32]
+    },{
+        "animationName": "actionUPmiss",
+        "frameName": "BF NOTE UP MISS",
+        "offsets": [-39, 28]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "BF NOTE RIGHT0",
+        "offsets": [-38, -7]
+    },{
+        "animationName": "actionRIGHTmiss",
+        "frameName": "BF NOTE RIGHT MISS",
+        "offsets": [-39, 20]
+    },{
+        "animationName": "actionDODGE",
+        "frameName": "BF Dodge",
+        "offsets": [-5, -8]
+    },{
+        "animationName": "hey",
+        "frameName": "BF HEY!!",
+        "offsets": [-4, 6]
+    },{
+        "animationName": "hited",
+        "frameName": "BF Hited",
+        "offsets": [15, 19]
+    },{
+        "animationName": "scared",
+        "frameName": "BF Idle Shaking",
+        "animLooped": true,
+        "offsets": [-6, 2]
+    }]
+}

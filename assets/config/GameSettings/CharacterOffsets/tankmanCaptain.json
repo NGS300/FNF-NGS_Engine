@@ -1,0 +1,46 @@
+{
+    "imageDirectory": "charWeeks/7/TankmanCaptain_Assets",
+    "hpColor": "0xFF090909",
+    "positionY": 165,
+    "midPointY": -16,
+    "characterAnimationsTypes":[{
+        "frameName": "Tankman Idle",
+        "animLooped": true
+    },{
+        "frameName": "Tankman Left Note",
+        "animationName": "actionLEFT",
+        "offsets":[86, -13]
+    },{
+        "frameName": "Tankman Left Note",
+        "animationName": "oldActionLEFT",
+        "offsets":[86, -13]
+    },{
+        "frameName": "Tankman Up note",
+        "animationName": "actionUP",
+        "offsets":[45, 45]
+    },{
+        "frameName": "Tankman Up note",
+        "animationName": "oldActionUP",
+        "offsets":[45, 45]
+    },{
+        "frameName": "Tankman Down note",
+        "animationName": "actionDOWN",
+        "offsets":[69, -101]
+    },{
+        "frameName": "Tankman Right Note",
+        "animationName": "actionRIGHT",
+        "offsets":[-17, -30]
+    },{
+        "frameName": "Tankman UGH",
+        "animationName": "ugh",
+        "offsets":[-13, -8]
+    },{
+        "frameName": "Tankman Pretty Good",
+        "animationName": "prettyGood",
+        "offsets":[2, 15]
+    },{
+        "frameName": "Tankman SHOOT",
+        "animationName": "actionSHOOT",
+        "offsets":[-25, -60]
+    }]
+}

@@ -1,0 +1,34 @@
+{
+    "imageDirectory": "bfChars/pixel/BoyFriend_Pixel_Assets",
+    "deathAnim": "bf-pixel-dead",
+    "hpColor": "0xFF7bd6f6",
+    "flipX": true,
+    "characterAnimationsTypes":[{
+        "frameName": "BF IDLE",
+        "animLooped": true
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "BF LEFT NOTE"
+    },{
+        "animationName": "actionLEFTmiss",
+        "frameName": "BF LEFT MISS"
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "BF DOWN NOTE"
+    },{
+        "animationName": "actionDOWNmiss",
+        "frameName": "BF DOWN MISS"
+    },{
+        "animationName": "actionUP",
+        "frameName": "BF UP NOTE"
+    },{
+        "animationName": "actionUPmiss",
+        "frameName": "BF UP MISS"
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "BF RIGHT NOTE"
+    },{
+        "animationName": "actionRIGHTmiss",
+        "frameName": "BF RIGHT MISS"
+    }]
+}

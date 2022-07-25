@@ -1,0 +1,84 @@
+{
+    "imageDirectory": "bfChars/BoyFriend_50Years_Assets",
+    "hpColor": "0xFF405CFF",
+    "flipX": true,
+    "characterAnimationsTypes":[{
+        "animationName": "deathLoop",
+        "frameName": "BF Normal Dead Loop",
+        "animLooped": true,
+        "offsets": [24]
+    },{
+        "animationName": "firstDeath",
+        "frameName": "BF Normal Dies",
+        "offsets": [24, 7]
+    },{
+        "animationName": "deathConfirm",
+        "frameName": "BF Normal Dead Confirm",
+        "offsets": [24, 65]
+    },{
+        "frameName": "BF Normal Dance",
+        "animLooped": true,
+        "offsets": [-5]
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "BF NORMAL NOTE LEFT0",
+        "offsets": [0, -5]
+    },{
+        "animationName": "actionLEFTmiss",
+        "frameName": "BF NORMAL NOTE LEFT MISS",
+        "offsets": [2, 18]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "BF NORMAL NOTE DOWN0",
+        "offsets": [-10, -51]
+    },{
+        "animationName": "actionDOWNmiss",
+        "frameName": "BF NORMAL NOTE DOWN MISS",
+        "offsets": [-5, -22]
+    },{
+        "animationName": "actionUP",
+        "frameName": "BF NORMAL NOTE UP0",
+        "offsets": [-50, 32]
+    },{
+        "animationName": "actionUPmiss",
+        "frameName": "BF NORMAL NOTE UP MISS",
+        "offsets": [-39, 28]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "BF NORMAL NOTE RIGHT0",
+        "offsets": [-38, -7]
+    },{
+        "animationName": "actionRIGHTmiss",
+        "frameName": "BF NORMAL NOTE RIGHT MISS",
+        "offsets": [-39, 20]
+    },{
+        "animationName": "dodge",
+        "frameName": "BF Normal Dodge",
+        "offsets": [-5, -8]
+    },{
+        "animationName": "hey",
+        "frameName": "BF NORMAL HEY!!",
+        "offsets": [-4, 6]
+    },{
+        "animationName": "wellcome",
+        "frameName": "BF Normal Wellcome!!",
+        "offsets": [-4, 6]
+    },{
+        "animationName": "hited",
+        "frameName": "BF Normal Hited",
+        "offsets": [15, 19]
+    },{
+        "animationName": "scared",
+        "frameName": "BF Normal Shaking",
+        "animLooped": true,
+        "offsets": [-6, 2]
+    },{
+        "frameName": "BF Tankman UGH0",
+        "animationName": "Ugh",
+        "offsets":[-4, 149]
+    },{
+        "frameName": "BF Tankman UGH MISS",
+        "animationName": "UGHmiss",
+        "offsets":[-12, 186]
+    }]
+}

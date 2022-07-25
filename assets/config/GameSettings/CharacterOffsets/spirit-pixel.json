@@ -1,0 +1,28 @@
+{
+    "imageDirectory": "charWeeks/6/Spirit_Assets",
+    "getAtlasFile": "packerAtlas",
+    "hpColor": "0xFFff3c6e",
+    "positionX": -150, 
+    "positionY": 100,
+    "characterAnimationsTypes":[{
+        "frameName": "idle_",
+        "animLooped": true,
+        "offsets":[-220, -280]
+    },{
+        "frameName": "left_",
+        "animationName": "actionLEFT",
+        "offsets":[-200, -280]
+    },{
+        "frameName": "up_",
+        "animationName": "actionUP",
+        "offsets":[-220, -240]
+    },{
+        "frameName": "down_",
+        "animationName": "actionDOWN",
+        "offsets":[170, 110]
+    },{
+        "frameName": "right_",
+        "animationName": "actionRIGHT",
+        "offsets":[-220, -280]
+    }]
+}

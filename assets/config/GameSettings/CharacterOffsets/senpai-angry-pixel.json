@@ -1,0 +1,27 @@
+{
+    "imageDirectory": "charWeeks/6/Senpai_Assets",
+    "hpColor": "0xFFffaa6f",
+    "midPointX": -100,
+    "midPointY": -430,
+    "positionX": 150, 
+    "positionY": 360,
+    "characterAnimationsTypes":[{
+        "frameName": "Angry Senpai Idle",
+        "animLooped": true
+    },{
+        "frameName": "Angry Senpai LEFT NOTE",
+        "animationName": "actionLEFT",
+        "offsets":[40, 0]
+    },{
+        "frameName": "Angry Senpai UP NOTE",
+        "animationName": "actionUP",
+        "offsets":[5, 37]
+    },{
+        "frameName": "Angry Senpai DOWN NOTE",
+        "animationName": "actionDOWN",
+        "offsets":[14, 0]
+    },{
+        "frameName": "Angry Senpai RIGHT NOTE",
+        "animationName": "actionRIGHT"
+    }]
+}

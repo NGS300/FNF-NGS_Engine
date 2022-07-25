@@ -1,0 +1,24 @@
+{
+    "imageDirectory": "charWeeks/4/Mom_Assets",
+    "hpColor": "0xFFd8558e",
+    "characterAnimationsTypes":[{
+        "frameName": "Mom Idle",
+        "animLooped": true
+    },{
+        "animationName": "actionLEFT",
+        "frameName": "Mom Left NOTE",
+        "offsets":[255, -4]
+    },{
+        "animationName": "actionUP",
+        "frameName": "Mom Up NOTE",
+        "offsets":[70, 45]
+    },{
+        "animationName": "actionDOWN",
+        "frameName": "Mom Down NOTE",
+        "offsets":[50, -200]
+    },{
+        "animationName": "actionRIGHT",
+        "frameName": "Mom Right NOTE",
+        "offsets":[5, -52]
+    }]
+}
