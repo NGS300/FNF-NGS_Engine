@@ -1,0 +1,157 @@
+# Changelog
+All notable changes will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.5] - ?/07/2022 - Version With Less Bugs
+### Added & Fixes
+- 11-12 New Logos in Title
+- New Icons
+- Update Directories
+- Smouth All Characters
+- Fixed Old-Bugs of Beta 0.9
+- New Sprites
+- Removed Numbers Sprites
+- Added New HUD and Customize HUD (Recommended Not to Use the Customize HUD, Because it's Just a Project)
+- Added Splash (It's From the Psych Engine The Splash Sprite)
+- Added 13 NoteType to Difficulty
+- Added 4 Type of HealthIcons
+- Modifire Charting Items and Added BG & Color For Each Map in The Charting
+- New Tittle
+- Added More KeyBind Edit (v2)
+- Added Tutorial.Txt (1% Done)
+- Added New Font
+- Added HUD Health Percent and Health Color's Percent
+- Added HUD Combo and MaxCombo
+- Added HUD Ranking and Rank
+- Added HUD Stats Example (Sick, Goods you Hited)
+- Added One Folder to Edit BG Menus
+- Added Title Gradient Effects
+- Fixed Icons Offsets
+- Added Tween HUD in Start Song
+- Added TrackLeft HUD
+- Zipped codes, Turned big Codes Into Simple Functions
+- Fixed Lightning Strike in Very Hard of Normal Mode (I Went to Hardmode Forward)
+- New Sprite in StoryMenu
+- Fixed OutdatedState
+- Fixed Pause Menu Change Difficulty (only difficulty appears the way you are)
+- Fixed Ragen Note
+- Added Flash Lights Options
+- Added Visual Effects Options
+- Added Distractions Option
+- Added PadLock on Scroll Locked
+- Added When the Opponent or Player is Singing, The Icon will Bop (Like Beat Icon)
+- Removed Icon Beat of Tracks Beats
+- Added Rating & RatingFC
+- Fixed Philly Chart (Very-Hard)
+- Fixed High Chart (Very-Hard)
+- Fixed South Chart (Very-Hard)
+- Fixed Spookeez Chart (Very-Hard)
+- Fixed Dad Battle Chart (Verh-Hard)
+- Fixed StoryMode Crash
+- Added Photo Icon Hitboxes and Photshop File to Edit
+- Rename Some Presets
+- Fix App Settings
+- Removed Shit Rating That Had an Miss
+- Removed WaveForm
+- Fixed in Start Song now have three, two, one sprites
+- Now at Guns The Tankman Transcends :D
+- Fix Ram Adds Every Sec in Charting
+- Added Console
+- New MainMenu Song Remix (By: Jay Garrick)
+- Removed Folder Mods Useless
+- Added NoteSplash Opponent
+- Added Miss & Pass Sprite HUD
+- Rating has been adjusted and rank has been assigned to rating
+- Fix Rating Sprite in BotPlay and Other Notes that are not the originals
+- Fix Get Combo in Botplay and Hud Effect in Botplay
+- Added Engine Photo in Discord Rich Presence and Name Engine in Discord Rich Presence
+- Added Icon of Engine on MainMenu
+- Added Options Any of Menu 
+- Removed Scroll Options in MainMenu
+- Fix a possible bug of the old version
+- Added Secret State :D
+- Fix Map OFF opponent Scroll is Visible 
+- Added Reset All HighScores
+- Added Player's Notes Fix Position
+- Added NoteSplash Player's Fix Splash Position
+- Removed Trash Folder's, Trash hx Files, Trash Photos
+- Fix Buttoms in Menus
+- Removed Icons in Pause
+- Added Suport Cutscene .MP4
+- Added Week7 Cutscene
+- Rename MidBG Alpha to Lane Scroll (Name in Options)
+- Added Opponent Scroll BG/Lane (activate in OptionsConfig.json)
+- Added CharacterSelect in Songs & Options Character Select (cannot be deactivated "for a while")
+- Added  StrumMove on Hit
+- Added Icon Json File
+- Added Chracter Json File
+- Fix Change Scrolling (Now Automatically Puts the Original Position of the Scrolls)
+- Fix Skys Change Color Mini Bug to Change to Fast
+- Added EngineMark & 4 Type of EngineMark
+- Extreme Compact Codes
+- Rename source to src
+- Compact Options And in Options Add 2 Key Binds to Use (Shift, Ctrl)
+- Added (Engine Language Project) - (0.01%)
+- Added 1 Notetype Pixel
+- Added Down and Up Scroll System in MainMenu (Future in All Menus)
+- Remake Maty Icons Pack
+- Fix HUD for Downscroll
+- Added Song & Artist Mark
+- Added Note & Description Name in ChartingState
+- Added BotplayText
+- Added BoyfriendsList, OpponentsList, BoyfriendsNamesList, (CharacterSelect Only) BGColorList to Json
+- Added 3 Boyfriends Secrets
+- Added 1 Secret Song (Extra-Hard) in HardMode
+- Added Note Keybinds
+- Possible Fix in Unpause, When Unpause the Music has a Possibility to Become Active.
+- Added Death Stats in GamerOver
+- Removed iconRPC = icon player 2 in discord
+- Added Camera Beat in Gamer Over
+- Fix Endless
+- Fix Character Select  States
+- Removed 1 Sprite Secret Song/Map
+- Fixed Secret Songs Show in Discord (No More)
+- Fixed Botplay in Crash in Menus
+- Added Tankman Shoots
+- Rename Note DODGE to ALERT
+- All Flas Were Organized
+
+## [Beta 0.9] 18/03/2022
+### Added
+- Added MiddleScroll Option
+- Added KE Options Menu
+- Added FPSCamera Option
+- Added Botplay Option
+- Added Endless(BETA)
+- Added Old/New Input (Ghost Tapping) Option
+- Added 4 Diff Modes Option
+- Added 8 Difficulty but Only 3 Are Available, Counting With 0
+- New Directories
+- Added HUD Edit (BETA) Option
+- Added Reset Bind Option
+- Added Camera Move Sing Diretions Option
+- Added Camera Zoom Option
+- Added Up e DownScroll Option
+- Added KeyBind Edit (v1)
+- Added Optimize (it's not like kade[Name is Map: Remove all mapa e players the black screen only strums])
+- Added Players Health Bar Colors Option
+- Added Opponnet Hit Glown Strum Option
+- Added Show FPS Option
+- Added Miss Sound Option
+- Added Antialising Option
+- Added EngineMark (not working)
+- Added Engine Font (Highman.ttf)
+- Added Middle Freeplay Songs
+- Added Middle UP Best Score
+- Added Added All FNF Songs (Re-Charted ONLY VERY HARD)
+- Added New HUD (BETA)
+- Added beat icon when player sings
+- Added HUD Score
+- Added HUD Misses
+- Added HUD Accuracy
+- Added 2 Option Sprite Rating (Default FNF and in Note Pressed)
+- Added Difficulty Pause Select
+- Added Options Pause Select
+- Fix Buttom no Exist
