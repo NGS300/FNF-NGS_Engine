@@ -1,0 +1,3 @@
+FreeplayConfig.json:
+
+"MergeOption" // true: the text one option also disables in-game and freeplay, false: has no connection to freeplay.
