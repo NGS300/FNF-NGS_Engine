@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BoyFriend_Holding_Girlfriend_Assets.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Amorous Moment0000" x="5361" y="4445" width="530" height="482" frameX="-1" frameY="-39" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0001" x="2610" y="2344" width="530" height="509" frameX="-1" frameY="-12" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0002" x="5352" y="2855" width="524" height="509" frameX="0" frameY="-12" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0003" x="2006" y="2340" width="524" height="516" frameX="0" frameY="-5" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0004" x="60" y="2311" width="526" height="517" frameX="0" frameY="-4" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0005" x="733" y="2309" width="527" height="517" frameX="0" frameY="-4" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0006" x="7491" y="1208" width="527" height="521" frameX="0" frameY="0" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0007" x="7491" y="1809" width="527" height="521" frameX="0" frameY="0" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0008" x="7491" y="1809" width="527" height="521" frameX="0" frameY="0" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0009" x="6818" y="2306" width="527" height="521" frameX="0" frameY="0" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0010" x="6818" y="2306" width="527" height="521" frameX="0" frameY="0" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="Amorous Moment0011" x="3425" y="2307" width="527" height="521" frameX="0" frameY="0" frameWidth="531" frameHeight="521"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0000" x="2124" y="1208" width="592" height="503" frameX="-7" frameY="-4" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0001" x="2796" y="1208" width="577" height="507" frameX="-7" frameY="0" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0002" x="2796" y="1208" width="577" height="507" frameX="-7" frameY="0" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0003" x="2796" y="1208" width="577" height="507" frameX="-7" frameY="0" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0004" x="1340" y="2331" width="586" height="462" frameX="0" frameY="-1" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0005" x="4694" y="2855" width="578" height="462" frameX="0" frameY="-4" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0006" x="7425" y="2410" width="581" height="464" frameX="0" frameY="-2" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0007" x="7425" y="2410" width="581" height="464" frameX="0" frameY="-2" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0008" x="666" y="2906" width="575" height="460" frameX="0" frameY="-6" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0009" x="1340" y="2873" width="576" height="460" frameX="0" frameY="-6" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0010" x="1340" y="2873" width="576" height="460" frameX="0" frameY="-6" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="BF Catches GF in a Sexy Way0011" x="1340" y="2873" width="576" height="460" frameX="0" frameY="-6" frameWidth="599" frameHeight="507"/>
+	<SubTexture name="Couple Dead Confirm0000" x="748" y="60" width="608" height="497" frameX="0" frameY="-2" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0001" x="1436" y="60" width="606" height="496" frameX="0" frameY="-3" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0002" x="60" y="60" width="608" height="499"/>
+	<SubTexture name="Couple Dead Confirm0003" x="2122" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0004" x="2810" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0005" x="3498" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0006" x="4186" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0007" x="4874" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0008" x="5562" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0009" x="6250" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0010" x="6938" y="60" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0011" x="2122" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0012" x="2810" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0013" x="3498" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0014" x="4186" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0015" x="4874" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0016" x="5562" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0017" x="6250" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0018" x="6938" y="634" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0019" x="748" y="637" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0020" x="60" y="639" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0021" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0022" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0023" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0024" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0025" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0026" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0027" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0028" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0029" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0030" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0031" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0032" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Confirm0033" x="1436" y="1208" width="608" height="494" frameX="0" frameY="-5" frameWidth="608" frameHeight="499"/>
+	<SubTexture name="Couple Dead Loop0000" x="4126" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0001" x="4799" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0002" x="4799" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0003" x="5472" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0004" x="5472" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0005" x="6145" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0006" x="6145" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0007" x="6818" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0008" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0009" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0010" x="60" y="1213" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0011" x="60" y="1213" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0012" x="4126" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0013" x="4126" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0014" x="4799" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0015" x="4799" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0016" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0017" x="4126" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0018" x="4799" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0019" x="4799" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0020" x="5472" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0021" x="5472" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0022" x="6145" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0023" x="6145" y="1208" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0024" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0025" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0026" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0027" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0028" x="748" y="1211" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0029" x="60" y="1213" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0030" x="5472" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0031" x="4126" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0032" x="4126" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dead Loop0033" x="4799" y="1757" width="593" height="469"/>
+	<SubTexture name="Couple Dies0000" x="6145" y="2854" width="582" height="459" frameX="-1" frameY="0" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0001" x="4032" y="2855" width="582" height="459" frameX="-1" frameY="0" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0002" x="3220" y="2908" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0003" x="1996" y="2936" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0004" x="6807" y="2954" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0005" x="5956" y="3393" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0006" x="3893" y="3394" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0007" x="4566" y="3397" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0008" x="1321" y="3413" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0009" x="2669" y="3434" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0010" x="5239" y="3444" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0011" x="60" y="3446" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0012" x="1994" y="3462" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0013" x="6629" y="3480" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0014" x="7302" y="3480" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0015" x="5912" y="3919" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0016" x="3342" y="3920" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0017" x="4015" y="3923" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0018" x="733" y="3939" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0019" x="2667" y="3960" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0020" x="4688" y="3970" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0021" x="60" y="3972" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0022" x="1406" y="3988" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0023" x="6585" y="4006" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0024" x="7258" y="4006" width="593" height="446" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0025" x="1436" y="636" width="593" height="473" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0026" x="3453" y="1208" width="593" height="470" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0027" x="6145" y="2306" width="593" height="468" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0028" x="6145" y="1757" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0029" x="6818" y="1757" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0030" x="3453" y="1758" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0031" x="733" y="1760" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0032" x="733" y="1760" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0033" x="733" y="1760" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0034" x="733" y="1760" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0035" x="733" y="1760" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0036" x="60" y="1762" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0037" x="60" y="1762" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0038" x="1406" y="1782" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0039" x="1406" y="1782" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0040" x="2079" y="1791" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0041" x="2079" y="1791" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0042" x="2752" y="1795" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0043" x="4126" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0044" x="4126" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0045" x="4126" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0046" x="4126" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0047" x="4799" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0048" x="6145" y="1208" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="469"/>
+	<SubTexture name="Couple Dies0049" x="4126" y="1208" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="469"/>
+	<SubTexture name="Couple Dies0050" x="4126" y="1208" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="469"/>
+	<SubTexture name="Couple Dies0051" x="4126" y="1208" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="469"/>
+	<SubTexture name="Couple Dies0052" x="4126" y="1208" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="469"/>
+	<SubTexture name="Couple Dies0053" x="4126" y="1208" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="469"/>
+	<SubTexture name="Couple Dies0054" x="5472" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0055" x="5472" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0056" x="5472" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dies0057" x="5472" y="2306" width="593" height="469" frameX="0" frameY="-16" frameWidth="593" frameHeight="489"/>
+	<SubTexture name="Couple Dodge0000" x="1259" y="5553" width="517" height="447" frameX="-3" frameY="-1" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0001" x="7137" y="5557" width="517" height="447" frameX="-2" frameY="-1" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0002" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0003" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0004" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0005" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0006" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0007" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0008" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0009" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0010" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0011" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0012" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0013" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Dodge0014" x="1916" y="5533" width="518" height="448" frameX="0" frameY="0" frameWidth="520" frameHeight="448"/>
+	<SubTexture name="Couple Hited0000" x="3994" y="4449" width="588" height="428" frameX="0" frameY="-13" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0001" x="3340" y="4446" width="574" height="445" frameX="-4" frameY="0" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0002" x="3700" y="6527" width="538" height="412" frameX="-59" frameY="-19" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0003" x="3051" y="6541" width="538" height="412" frameX="-59" frameY="-19" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0004" x="680" y="6593" width="537" height="398" frameX="-58" frameY="-33" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0005" x="6194" y="6597" width="537" height="398" frameX="-58" frameY="-33" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0006" x="4918" y="6577" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0007" x="60" y="6578" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0008" x="4918" y="6577" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0009" x="60" y="6578" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0010" x="4918" y="6577" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0011" x="60" y="6578" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0012" x="4918" y="6577" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0013" x="60" y="6578" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Hited0014" x="4918" y="6577" width="540" height="403" frameX="-47" frameY="-28" frameWidth="597" frameHeight="445"/>
+	<SubTexture name="Couple Idle Dance0000" x="7137" y="5053" width="550" height="424" frameX="-1" frameY="-8" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0001" x="7137" y="5053" width="550" height="424" frameX="-1" frameY="-8" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0002" x="2587" y="5031" width="554" height="424" frameX="0" frameY="-8" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0003" x="2587" y="5031" width="554" height="424" frameX="0" frameY="-8" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0004" x="4614" y="5008" width="555" height="426" frameX="-3" frameY="-6" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0005" x="4614" y="5008" width="555" height="426" frameX="-3" frameY="-6" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0006" x="6576" y="4532" width="556" height="429" frameX="-1" frameY="-3" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0007" x="6576" y="4532" width="556" height="429" frameX="-1" frameY="-3" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0008" x="1338" y="4514" width="557" height="431" frameX="-2" frameY="-1" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0009" x="1338" y="4514" width="557" height="431" frameX="-2" frameY="-1" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0010" x="1338" y="4514" width="557" height="431" frameX="-2" frameY="-1" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0011" x="1338" y="4514" width="557" height="431" frameX="-2" frameY="-1" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0012" x="4662" y="4496" width="558" height="432" frameX="-2" frameY="0" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Dance0013" x="4662" y="4496" width="558" height="432" frameX="-2" frameY="0" frameWidth="560" frameHeight="432"/>
+	<SubTexture name="Couple Idle Shaking0000" x="60" y="5012" width="525" height="448" frameX="-1" frameY="0" frameWidth="526" frameHeight="448"/>
+	<SubTexture name="Couple Idle Shaking0001" x="6533" y="5041" width="524" height="448" frameX="-2" frameY="0" frameWidth="526" frameHeight="448"/>
+	<SubTexture name="Couple Idle Shaking0002" x="1311" y="5025" width="525" height="448" frameX="-1" frameY="0" frameWidth="526" frameHeight="448"/>
+	<SubTexture name="Couple Idle Shaking0003" x="60" y="2908" width="526" height="448"/>
+	<SubTexture name="Couple NOTE DOWN0000" x="5596" y="6572" width="518" height="421" frameX="-1" frameY="-10" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0001" x="2441" y="6577" width="520" height="415" frameX="0" frameY="-12" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0002" x="6811" y="6597" width="520" height="411" frameX="0" frameY="-15" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0003" x="1841" y="6577" width="520" height="419" frameX="0" frameY="-7" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0004" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0005" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0006" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0007" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0008" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0009" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0010" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0011" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0012" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0013" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0014" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0015" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0016" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0017" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0018" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0019" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0020" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0021" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0022" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0023" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0024" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0025" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0026" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0027" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0028" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN0029" x="4318" y="6563" width="520" height="426" frameX="0" frameY="0" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN MISS0000" x="5596" y="6572" width="518" height="421" frameX="-1" frameY="-11" frameWidth="520" frameHeight="431"/>
+	<SubTexture name="Couple NOTE DOWN MISS0001" x="1245" y="6080" width="516" height="433" frameX="-1" frameY="0" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0002" x="1245" y="6080" width="516" height="433" frameX="-1" frameY="0" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0003" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0004" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0005" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0006" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0007" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0008" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0009" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0010" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0011" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0012" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0013" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0014" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0015" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0016" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0017" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0018" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0019" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0020" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0021" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0022" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0023" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0024" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0025" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0026" x="2450" y="6068" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0027" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE DOWN MISS0028" x="5596" y="6063" width="521" height="429" frameX="0" frameY="-4" frameWidth="521" frameHeight="433"/>
+	<SubTexture name="Couple NOTE LEFT0000" x="6305" y="5569" width="516" height="435" frameX="0" frameY="-1" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0001" x="3814" y="6011" width="514" height="436" frameX="-5" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0002" x="3106" y="6025" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0003" x="4408" y="6047" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0004" x="651" y="6063" width="514" height="435" frameX="-11" frameY="-1" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0005" x="1856" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0006" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0007" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0008" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0009" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0010" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0011" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0012" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0013" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0014" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT0015" x="5002" y="6061" width="514" height="436" frameX="-11" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT MISS0000" x="6305" y="5569" width="516" height="435" frameX="0" frameY="0" frameWidth="525" frameHeight="436"/>
+	<SubTexture name="Couple NOTE LEFT MISS0001" x="6197" y="6084" width="515" height="433" frameX="-15" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0002" x="6197" y="6084" width="515" height="433" frameX="-15" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0003" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0004" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0005" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0006" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0007" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0008" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0009" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0010" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0011" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0012" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0013" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0014" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0015" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0016" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0017" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0018" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0019" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0020" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0021" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0022" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0023" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0024" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0025" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0026" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0027" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0028" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0029" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0030" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0031" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0032" x="6792" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE LEFT MISS0033" x="7384" y="6084" width="512" height="433" frameX="-13" frameY="0" frameWidth="530" frameHeight="435"/>
+	<SubTexture name="Couple NOTE RIGHT0000" x="3932" y="5478" width="514" height="453" frameX="-1" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0001" x="3221" y="5492" width="513" height="453" frameX="-1" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0002" x="665" y="5531" width="514" height="452" frameX="0" frameY="-1" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0003" x="4526" y="5514" width="513" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0004" x="5119" y="5528" width="513" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0005" x="2514" y="5535" width="512" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0006" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0007" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0008" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0009" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0010" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0011" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0012" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0013" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0014" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0015" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0016" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0017" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0018" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0019" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0020" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0021" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0022" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0023" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0024" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0025" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0026" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0027" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0028" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0029" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0030" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0031" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0032" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0033" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0034" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0035" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0036" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0037" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0038" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0039" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0040" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0041" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0042" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0043" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0044" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0045" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0046" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0047" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0048" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0049" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0050" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0051" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0052" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0053" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0054" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0055" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0056" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0057" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0058" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0059" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0060" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT0061" x="60" y="5540" width="511" height="453" frameX="0" frameY="0" frameWidth="515" frameHeight="453"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0000" x="5712" y="5530" width="513" height="453" frameX="-7" frameY="-15" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0001" x="2711" y="4486" width="521" height="465" frameX="0" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0002" x="2711" y="4486" width="521" height="465" frameX="0" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0003" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0004" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0005" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0006" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0007" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0008" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0009" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0010" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0011" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0012" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0013" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0014" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0015" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0016" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0017" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0018" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0019" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0020" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0021" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0022" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0023" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0024" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0025" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0026" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0027" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0028" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0029" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0030" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0031" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0032" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0033" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0034" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0035" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0036" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0037" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0038" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0039" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0040" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0041" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0042" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0043" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0044" x="5971" y="4445" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE RIGHT MISS0045" x="733" y="4465" width="525" height="465" frameX="-1" frameY="0" frameWidth="526" frameHeight="468"/>
+	<SubTexture name="Couple NOTE UP0000" x="1975" y="5007" width="532" height="446" frameX="-5" frameY="0" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0001" x="5918" y="5007" width="535" height="443" frameX="-3" frameY="-3" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0002" x="7212" y="4532" width="540" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0003" x="3994" y="4957" width="540" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0004" x="3312" y="4971" width="540" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0005" x="5300" y="5007" width="538" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0006" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0007" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0008" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0009" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0010" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0011" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0012" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0013" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP0014" x="695" y="5010" width="536" height="441" frameX="0" frameY="-5" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP MISS0000" x="1975" y="5007" width="532" height="446" frameX="-9" frameY="0" frameWidth="540" frameHeight="446"/>
+	<SubTexture name="Couple NOTE UP MISS0001" x="60" y="4498" width="555" height="434" frameX="0" frameY="-13" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0002" x="60" y="4498" width="555" height="434" frameX="0" frameY="-13" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0003" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0004" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0005" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0006" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0007" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0008" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0009" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0010" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0011" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0012" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0013" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0014" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0015" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0016" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0017" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0018" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0019" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0020" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0021" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0022" x="2079" y="4486" width="552" height="441" frameX="-1" frameY="-8" frameWidth="555" frameHeight="449"/>
+	<SubTexture name="Couple NOTE UP MISS0023" x="7480" y="2954" width="552" height="442" frameX="-1" frameY="-7" frameWidth="555" frameHeight="449"/>
+</TextureAtlas>
