@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf-fileIcon.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dead0000" x="60" y="60" width="675" height="565"/>
+	<SubTexture name="idle0000" x="60" y="705" width="675" height="565"/>
+	<SubTexture name="wining0000" x="815" y="60" width="675" height="565"/>
+</TextureAtlas>
