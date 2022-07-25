@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- _________________________ Application Settings _________________________ -->
+	<!-- <app title="Friday Night Funkin' NG'S Engine" file="NGE" packageName="com.ninjamuffin99.funkin" package="com.ninjamuffin99.funkin" main="Main" version="1.0" company="ninjamuffin99" /> -->
+	<app title="Friday Night Funkin': NG'S Engine" file="Ngs Engine" packageName="com.ngs300.ngsengine" package="com.ngs300.ngsengine" main="Main" version="0.2.7.1" company="NGS300" />
+
+	<!--Switch Export with Unique ApplicationID and Icon-->
+	<set name="APP_ID" value="0x0100f6c013bbc000" />
+
+	<app preloader="flixel.system.FlxPreloader" />
+	<set name="SWF_VERSION" value="11.8" />
+
+	<!-- ____________________________ Window Settings ___________________________ -->
+	<!--These window settings apply to all targets-->
+	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+	<!--HTML5-specific-->
+	<window if="html5" resizable="true" />
+	<!--Desktop-specific-->
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" vsync="false"/>
+	<!--Mobile-specific-->
+	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>
+	<!--Switch-specific-->
+	<window if="switch" orientation="landscape" fullscreen="true" width="0" height="0" resizable="true" />
+
+	<!-- _____________________________ Path Settings ____________________________ -->
+	<set name="BUILD_DIR" value="exit/debug" if="debug" />
+	<set name="BUILD_DIR" value="exit/64bit" unless="debug" />
+	<set name="BUILD_DIR" value="exit/32bit" if="32bit" />
+
+	<classpath name="src" />
+	<assets path="assets/preload" rename="assets" exclude="*.ogg" if="web"/>
+	<assets path="assets/preload" rename="assets" exclude="*.mp3" unless="web"/>
+	
+	<!-- <define name="PRELOAD_ALL" /> -->
+	<define name="PRELOAD_ALL" unless="web" />
+	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
+	
+	<section if="PRELOAD_ALL">
+		<library name="shared"   preload="true" />
+		<library name="character"   preload="true" />
+		<library name="maps"   preload="true" />
+		<library name="config"   preload="true" />
+		<library name="secrets"   preload="true" />
+	</section>
+	<section if="NO_PRELOAD_ALL">
+		<library name="shared"   preload="false" />
+		<library name="character"   preload="false" />
+		<library name="maps"   preload="false" />
+		<library name="config"   preload="false" />
+		<library name="secrets"   preload="false" />
+	</section>
+	
+	<assets path="assets/shared"   library="shared"   exclude="*.ogg" if="web"/>
+	<assets path="assets/shared"   library="shared"   exclude="*.mp3" unless="web"/>
+	<assets path="assets/character"   library="character"   exclude="*.ogg" if="web"/>
+	<assets path="assets/character"   library="character"   exclude="*.mp3" unless="web"/>
+	<assets path="assets/maps"   library="maps"   exclude="*.ogg" if="web"/>
+	<assets path="assets/maps"   library="maps"   exclude="*.mp3" unless="web"/>
+	<assets path="assets/config"   library="config"   exclude="*.ogg" if="web"/>
+	<assets path="assets/config"   library="config"   exclude="*.mp3" unless="web"/>
+	<assets path="assets/secrets"   library="secrets"   exclude="*.ogg" if="web"/>
+	<assets path="assets/secrets"   library="secrets"   exclude="*.mp3" unless="web"/>
+	<assets path="assets/videos" exclude="*.mp3" if="web"/>
+	<assets path="assets/videos" exclude="*.ogg" unless="web"/>
+	<assets path="plugins/" rename='' if="windows"/>
+	<assets path="dlls/" rename='' if="windows"/>
+	<assets path='art/readme.txt' rename='fnfOG.txt' />
+	
+	<!-- <assets path="CHANGELOG.md" rename='Updates.txt'/> -->
+	<!-- <assets path='LICENSE' rename='License.txt' /> -->
+	<assets path="assets/fonts" embed='true'/>
+
+	<!-- _______________________________ Libraries ______________________________ -->
+	<haxelib name="flixel" />
+	<haxedev set='webgl' />
+
+	<!--In case you want to use the addons package-->
+	<haxelib name="flixel-addons" />
+	<haxelib name="hscript" />
+
+	<!--In case you want to use the ui package-->
+	<haxelib name="flixel-ui" />
+	<haxelib name="newgrounds"/>
+	<haxelib name="faxe" if='switch'/>
+	<haxelib name="polymod"/>
+	<haxelib name="discord_rpc" if="desktop"/>
+
+	<!-- ______________________________ Haxedefines _____________________________ -->
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+
+	<!--________________________________CustomCodes________________________________-->
+	<!--2 types of loading engine songs-->
+	<!--<haxedef name="NEW_TYPE_CHECK_SONG" if="desktop" /> -->
+	<!--______SKIP_INITIATION_STATES_&_COMMANDS-->
+	<!--<haxedef name="SKIP_ITEM_INITIATION" if="desktop" />-->
+	<haxedef name="DevTools"/>
+
+	<!-- _________________________________ Custom _______________________________ -->
+	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
+	<icon path="art/engIcon/iconMainEng16.png" size='16'/>
+	<icon path="art/engIcon/iconMainEng32.png" size='32'/>
+	<icon path="art/engIcon/iconMainEng64.png" size='64'/>
+	<icon path="art/engIcon/iconMainEngOG.png" />
+</project>
