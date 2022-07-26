@@ -15,10 +15,10 @@ Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine a
 ![Code_5t69bNy4RY](https://user-images.githubusercontent.com/86559005/180923686-7a7e0fe8-cab3-472e-b651-ac35e6391332.png) - There's Much More than That!
 
 # Required:
-1 - a good pc with 4GB or more and that the pc doesn't overload easily and a good response from your pc (gaming and programming), programming has a slightly bigger overload.
-2 - Required Mouse and Keyboard.
-3 - To program it is necessary to use functions fluidly.
-4 - Have fun and good luck.
+1. a good pc with 4GB or more and that the pc doesn't overload easily and a good response from your pc (gaming and programming), programming has a slightly bigger overload.
+2. Required Mouse and Keyboard.
+3. o program it is necessary to use functions fluidly.
+4. ave fun and good luck.
 
 # Image of Some Engine Stuff ([Skip](#build))
 ![mainmenu](https://user-images.githubusercontent.com/86559005/180936376-0bbafcd0-b9ee-4b28-ae4d-7d6797d2e50f.jpg)
