@@ -16,7 +16,7 @@ import lime.app.Application;
 import openfl.Assets;
 using StringTools;
 class TitleState extends MusicBeatState{
-	var http = new haxe.Http("https://raw.githubusercontent.com/NGS300/Ngs-Engine/development/gitEngineVersion.txt");
+	var http = new haxe.Http("https://raw.githubusercontent.com/NGS300/NGS-Engine/main/gitEngineVersion.txt");
 	public static var updateVersion:String = '';
 	static var initialized:Bool = false;
 	var curWacky:Array<String> = [];
