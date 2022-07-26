@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Splash-pixel.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="splash impact blue pixel0000" x="60" y="60" width="74" height="85"/>
+	<SubTexture name="splash impact blue pixel0001" x="214" y="60" width="74" height="85"/>
+	<SubTexture name="splash impact blue pixel0002" x="368" y="60" width="74" height="85"/>
+	<SubTexture name="splash impact blue pixel0003" x="522" y="60" width="74" height="85"/>
+	<SubTexture name="splash impact green pixel0000" x="676" y="60" width="74" height="85"/>
+	<SubTexture name="splash impact green pixel0001" x="60" y="225" width="74" height="85"/>
+	<SubTexture name="splash impact green pixel0002" x="214" y="225" width="74" height="85"/>
+	<SubTexture name="splash impact green pixel0003" x="368" y="225" width="74" height="85"/>
+	<SubTexture name="splash impact purple pixel0000" x="522" y="225" width="74" height="85"/>
+	<SubTexture name="splash impact purple pixel0001" x="676" y="225" width="74" height="85"/>
+	<SubTexture name="splash impact purple pixel0002" x="60" y="390" width="74" height="85"/>
+	<SubTexture name="splash impact purple pixel0003" x="214" y="390" width="74" height="85"/>
+	<SubTexture name="splash impact red pixel0000" x="368" y="390" width="74" height="85"/>
+	<SubTexture name="splash impact red pixel0001" x="522" y="390" width="74" height="85"/>
+	<SubTexture name="splash impact red pixel0002" x="676" y="390" width="74" height="85"/>
+	<SubTexture name="splash impact red pixel0003" x="60" y="555" width="74" height="85"/>
+</TextureAtlas>
