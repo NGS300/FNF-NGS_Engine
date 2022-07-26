@@ -1,50 +1,52 @@
-# FNF - NG'S Engine WellCome :D
+![NG'SLogoMain](https://user-images.githubusercontent.com/86559005/180931575-c9b5142c-104e-41aa-a897-a171d7be0ce3.png)
 
-![NGELogoGithub](https://user-images.githubusercontent.com/86559005/158241054-6e6e2a7a-48a8-43e2-84d3-b035f38d5819.png)
-# What is the NGS Engine?
+## Friday Night Funkin'
+**Friday Night Funkin'** is a rhythm game originally made for Ludum Dare 47 "Stuck In a Loop".
+Links: **[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](https://www.newgrounds.com/portal/view/770371) ⋅ [source code on GitHub](https://github.com/ninjamuffin99/Funkin)
 
-## Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine and as Funkin Base) This Engine Is Focused On Making Mods Like Tricky, QT And etc, It Has Various Presets For You To Use Easy, Besides Having Pre - More Difficulties Than Normal [It's Not Mandatory, You Just Have To Take It Out Of The Options To Not Change The Game Mode], and All Songs Have Been Re-charted, Plus Much More.
+## What is the NGS Engine?
+Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine and as Funkin Base) This Engine Is Focused On Making Mods Like Tricky, QT And etc, It Has Various Presets For You To Use Easy, Besides Having Pre - More Difficulties Than Normal [It's Not Mandatory, You Just Have To Take It Out Of The Options To Not Change The Game Mode], and All Songs Have Been Re-charted, Plus Much More.
 
-# What are Presets in NGE?
-# that's it
-![Code_USmsuYHuKq](https://user-images.githubusercontent.com/86559005/159103470-1dab6290-09f6-47f5-81ac-e4d7274720ba.png)
-![Code_INNsvbc5MC](https://user-images.githubusercontent.com/86559005/159103423-862fdc94-1f60-4c5c-bd4e-c0ce4d463dde.png)
+## What are Presets in NGE?
+**that's it**
+![Code_QMZyF2I3Yd](https://user-images.githubusercontent.com/86559005/180923665-d609fcf5-57ab-46d3-b6ae-690608186961.png)
+![Code_5t69bNy4RY](https://user-images.githubusercontent.com/86559005/180923686-7a7e0fe8-cab3-472e-b651-ac35e6391332.png) - There's Much More than That!
 
-# Image of Some Engine Stuff
-## It still won't have because the release is still being done.
+# Required:
+1 - a good pc with 6GB or more and that the pc doesn't overload easily and a good response from your pc (gaming and programming), programming has a slightly bigger overload.
+2 - Required Mouse and Keyboard.
+3 - To program it is necessary to use functions fluidly.
+4 - Have fun and good luck.
 
-# Friday Night Funkin'
-This is the repository for Friday Night Funkin, a game originally made for Ludum Dare 47 "Stuck In a Loop".
+# Image of Some Engine Stuff ([skip](#build))
+![mainmenu](https://user-images.githubusercontent.com/86559005/180936376-0bbafcd0-b9ee-4b28-ae4d-7d6797d2e50f.jpg)
+![characterSelect](https://user-images.githubusercontent.com/86559005/180943942-6820e8eb-f360-43b3-aa1e-1d3f5485c63f.jpg)
+![Freeplay](https://user-images.githubusercontent.com/86559005/180944446-4de750c1-656e-4ee4-acb0-997427c5e3f1.jpg)
+![OptionInFreeplay](https://user-images.githubusercontent.com/86559005/180944525-8475d8da-591e-40a2-9452-c0868089b1f5.jpg)
+![Chart HUD](https://user-images.githubusercontent.com/86559005/180944479-d16e4aa5-c669-4109-a79e-a8f137c5bf51.jpg)
+![Charting](https://user-images.githubusercontent.com/86559005/180947775-db92c24a-234c-4179-87fc-65c2dd2d8129.png)
+![Charting NoteTypes](https://user-images.githubusercontent.com/86559005/180947785-ee936094-cc8f-42fb-aaba-706106f47a37.png)
+![Paused](https://user-images.githubusercontent.com/86559005/180944552-0f783d50-c222-43c8-8c7f-855890bc44a1.jpg)
+![MoreOptions](https://user-images.githubusercontent.com/86559005/180944580-1e2fd9d8-0f5a-4276-ac9d-19df3a82689e.jpg)
+![sus](https://user-images.githubusercontent.com/86559005/180944589-cb6e9c7d-0d11-4101-9485-1781ee6f513f.jpg)
+![F](https://user-images.githubusercontent.com/86559005/180944600-c5bbb619-6dd8-4ddb-ba25-4b3e87f4627c.jpg)
+![SourcePlayState(Beathit   Stepshit)](https://user-images.githubusercontent.com/86559005/180944925-2bfbaa1e-9e92-4177-bfa3-05fb22e1874f.png)
 
-Play the Ludum Dare prototype here: https://ninja-muffin24.itch.io/friday-night-funkin
-Play the Newgrounds one here: https://www.newgrounds.com/portal/view/770371
-Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
-
-This game was made with love to Newgrounds and its community. Extra love to Tom Fulp.
-
-## Necessary to Build
-
+# Build
 ### Installing the Required API Programs
-
 First Step - Download Haxe Items
 1. [Install Haxe 4.1.5](https://haxe.org/download/version/4.1.5/) (Download 4.1.5, I haven't tested if the latest version works)
 2. [Install HaxeFlixel](https://haxeflixel.com/documentation/install-haxeflixel/) after downloading Haxe
 3. haxelib install newgrounds
-
-1. Download [git-scm](https://git-scm.com/downloads) For Use Git Links
-2. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to Install Polymod.
-3. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to Install Discord RPC.
-4. Run `haxelib git hxCodec https://github.com/polybiusproxy/hxCodec.git` to Install HXCodec.
-
+4. Download [git-scm](https://git-scm.com/downloads) For Use Git Links
+5. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to Install Polymod.
+6. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to Install Discord RPC.
+7. Run `haxelib git hxCodec https://github.com/polybiusproxy/hxCodec.git` to Install HXCodec.
 ### Compiling game API
-
 Second Step - Download API or Addons (I don't know the name of it ;-;)
-
 To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved. For Linux, you only need to open a terminal in the project directory and run `lime test linux -debug` and then run the executable file in export/release/linux/bin. For Windows, you need to install Visual Studio Community 2019. While installing VSC, don't click on any of the options to install workloads. Instead, go to the individual components tab and choose the following:
-
 Download [Visual Studio Communty 2019](https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads) & Choice x64 or x86 Bit
 ![opera_jpRjZcwqde](https://user-images.githubusercontent.com/86559005/158903575-4f6fe1bb-fa09-4524-97a9-47d5e70a77fb.png)
-
 
 ## English
 * MSVC v142 - VS 2019 C++ x64/x86 build tools
@@ -80,16 +82,27 @@ Download [Visual Studio Communty 2019](https://my.visualstudio.com/Downloads?q=v
 
 ## Compile FNF For .exe
 Open Prompt Windows, Power Shell and If You're Lucky it's Visual Studio, For Compile.
-* `lime test windows`
-* `lime test linux`
+* `lime test windows` -64 or -32
+* `lime test linux` -64 or -32
 
-You can run FNF from the .exe file under export\release\windows\bin
+You can run FNF from the .exe file under exit\64bit or 32bit\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
-
 * This Entire Installation Is 25-27GB Which You Will Need To Use From Your PC
 
+### Engine Team
+- [NGS300](https://github.com/NGS300) - Engine Programmer (Made NG'S Engine)
+- JP - Engine Art + Logo
+- CuanRemix - Main Engine Logo
+- [Juniorxefao](https://github.com/Juniorxefao) - Engine Art + Logo
+- KkpassaroxX - Engine Art + Logo
+- [Maty](https://github.com/MatyHUB) - Engine Art + Logo
+- Jay Garrick - Musician and Sounds Effects
+- [Tio](https://github.com/Conodeo) - Logo
+- Marshverso - Logo
+- Jenvi - Logo
+
 ### Credits
-- [ninjamuffin99 (me!)](https://twitter.com/ninja_muffin99) - Programmer
+- [ninjamuffin99 (me!)](https://twitter.com/ninja_muffin99) - Programmer (Made the Funkin)
 - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
 - [Kawaisprite](https://twitter.com/kawaisprite) - Musician
 
@@ -97,7 +110,3 @@ As for Mac, 'lime test mac -debug' should work, if not the internet surely has a
 - [ShadowMario](https://github.com/ShadowMario) - Made the Psych Engine
 - [KadeDev](https://github.com/KadeDev) - Made the Kade Engine
 - [Verwex](https://github.com/Verwex) - Made the Mic'Up
-
-### Helpers / Companions
-- [Juniorxefao](https://github.com/Juniorxefao) - Art
-- [Maty](https://github.com/MatyHUB) - Art
