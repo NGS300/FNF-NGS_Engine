@@ -212,7 +212,7 @@ class MainMenuState extends MusicBeatState{
 					Actions.PlaySprAnim(gamebananaIcon, 'Gamebanana_MouseOver');
 					if (FlxG.mouse.justPressed){
 						PressedGamebananaIcon = true;
-						Actions.OpenLink("https://gamebanana.com/wips/66024");
+						Actions.OpenLink("https://gamebanana.com/mods/391787");
 					}
 				}
 			}else

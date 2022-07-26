@@ -39,7 +39,7 @@
         "frameName": "BF INTENSE NOTE RIGHT MISS",
         "offsets": [-39, 20]
     },{
-        "animationName": "dodge",
+        "animationName": "actionDODGE",
         "frameName": "BF Intense Dodge",
         "offsets": [-5, -8]
     },{
