@@ -83,7 +83,6 @@ Download [Visual Studio Communty 2019](https://my.visualstudio.com/Downloads?q=v
 * Windows 10 SDK (10.0.16299.0)
 * MSVC v141 - VS 2017 C++ x64/x86 build tools
 * MSVC v140 - VS 2015 C++ build tools (v14.00)
-
 ## Brasilian
 * MSVC v142 - Ferramentas de Build VS 2019 C++ x64 / x86
 * MFC C++ "Alguma Versão" Para Ferramentas de Build v142 (x86 e x64)
