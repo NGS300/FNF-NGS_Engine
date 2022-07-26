@@ -1675,9 +1675,9 @@ class EngineMarkOption extends Option{ // EngineMark Options
 			if (FlxG.save.data.engineMarkTransparency < 0)
 				FlxG.save.data.engineMarkTransparency = 0;
 		}else{
+			FlxG.save.data.engineMarkCustomization--;
 			if (FlxG.save.data.engineMarkCustomization < 0)
 				FlxG.save.data.engineMarkCustomization = 0;
-			FlxG.save.data.engineMarkCustomization--;
 		}
 		display = updateDisplay();
 		OptionsMenu.itIsNecessaryToRestart = true;
@@ -1692,9 +1692,9 @@ class EngineMarkOption extends Option{ // EngineMark Options
 			if (FlxG.save.data.engineMarkTransparency > 1)
 				FlxG.save.data.engineMarkTransparency = 1;
 		}else{
+			FlxG.save.data.engineMarkCustomization++;
 			if (FlxG.save.data.engineMarkCustomization > 3)
 				FlxG.save.data.engineMarkCustomization = 3;
-			FlxG.save.data.engineMarkCustomization++;
 		}
 		display = updateDisplay();
 		OptionsMenu.itIsNecessaryToRestart = true;

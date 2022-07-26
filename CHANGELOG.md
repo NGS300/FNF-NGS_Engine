@@ -118,6 +118,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rename Note DODGE to ALERT
 - All Flas Were Organized
 - Fix Dialogue Show LaneScroll
+- Removed Nunlock Bug
+- Fix Flashbang Note
+- Fix EngineMark Alpha Error
 
 ## [Beta 0.9] 18/03/2022
 ### Added

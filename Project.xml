@@ -95,7 +95,6 @@
 	<!--<haxedef name="NEW_TYPE_CHECK_SONG" if="desktop" /> -->
 	<!--______SKIP_INITIATION_STATES_&_COMMANDS-->
 	<!--<haxedef name="SKIP_ITEM_INITIATION" if="desktop" />-->
-	<haxedef name="DevTools"/>
 
 	<!-- _________________________________ Custom _______________________________ -->
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->

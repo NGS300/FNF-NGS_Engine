@@ -580,7 +580,7 @@ class PlayState extends MusicBeatState{
 			Actions.States('Switch', new ChartingState());
 		}
 		if (FlxG.save.data.moddingTools){ // Dev Tools Shit (Acess Only Use Code in ConsoleCodeState)
-			/* NUMLOCK Does Not Exist in Your API */#if DevTools if (FlxG.keys.justPressed.NUMLOCK) endChart(); #else if (FlxG.keys.justPressed.DELETE) /* For Yours */ endChart(); #end
+			if (FlxG.keys.justPressed.DELETE) endChart();
 			if (FlxG.keys.justPressed.PAGEUP) FlxG.switchState(new AnimationDebug((FlxG.save.data.charSelect != 1 ? SONG.player1 : CharacterSelect.charSelected))); // BF OFFSETS
 			if (FlxG.keys.justPressed.PAGEDOWN) FlxG.switchState(new AnimationDebug(SONG.player2)); // OPPONENT OFFSETS
 			if (FlxG.keys.justPressed.HOME) FlxG.switchState(new AnimationDebug(SONG.girlfriend)); // GF OFFSETS
@@ -1429,11 +1429,11 @@ class PlayState extends MusicBeatState{
 			missNote(note.noteData, note);
 		}
 		Actions.Flash(camHUD, 0xFFFFFFFF, Duration, true);
-		Actions.PlaySound('FlashBang', 'shared');
-		Actions.Alpha(strumLineNotes, 0, {ease: FlxEase.cubeOut});
+		Actions.PlaySound('flashBang', 'shared');
+		Actions.SetAlphaScroll(strumLineNotes, 0, 1, {ease: FlxEase.cubeOut});
 		TweenHUD(0, 1, true);
 		new FlxTimer().start(1, function(tmr:FlxTimer){
-			Actions.Alpha(strumLineNotes, 1, {ease: FlxEase.cubeOut});
+			Actions.SetAlphaScroll(strumLineNotes, 1, 1, {ease: FlxEase.cubeOut});
 			TweenHUD(null, 1, true);
 		});
 	}
@@ -1777,13 +1777,14 @@ class PlayState extends MusicBeatState{
 		Actions.Alpha(botplayTxt, (Alpha != null ? Alpha : FlxG.save.data.trackTimeLeftTransparency), Duration, {ease: FlxEase.cubeOut});
 		Actions.Alpha(iconP1, (Alpha != null ? Alpha : FlxG.save.data.iconTransparency), Duration, {ease: FlxEase.cubeOut});
 		Actions.Alpha(iconP2, (Alpha != null ? Alpha : FlxG.save.data.iconTransparency), Duration, {ease: FlxEase.cubeOut});
-		switch (FlxG.save.data.engineMarkCustomization){
-			case 0: whatThisMark = waterMarkEngine;
-			case 1: whatThisMark = waterMarkEngineSongName;
-			case 2: whatThisMark = waterMarkEngineDiff;
-			case 3: whatThisMark = waterMarkEngineInfo;
+		if (Main.engineMark){
+			switch (FlxG.save.data.engineMarkCustomization){
+				case 0: Actions.Alpha(waterMarkEngine, (Alpha != null ? Alpha : FlxG.save.data.engineMarkTransparency), Duration, {ease: FlxEase.cubeOut});
+				case 1: Actions.Alpha(waterMarkEngineSongName, (Alpha != null ? Alpha : FlxG.save.data.engineMarkTransparency), Duration, {ease: FlxEase.cubeOut});
+				case 2: Actions.Alpha(waterMarkEngineDiff, (Alpha != null ? Alpha : FlxG.save.data.engineMarkTransparency), Duration, {ease: FlxEase.cubeOut});
+				case 3: if (!FlxG.save.data.fpsAndMemory) Actions.Alpha(waterMarkEngineInfo, (Alpha != null ? Alpha : FlxG.save.data.engineMarkTransparency), Duration, {ease: FlxEase.cubeOut});
+			}
 		}
-		Actions.Alpha(whatThisMark, (Alpha != null ? Alpha : FlxG.save.data.engineMarkTransparency), Duration, {ease: FlxEase.cubeOut});
 		if (laneCameraProcesed){
 			Actions.Alpha(lanePlayerScroll, (Alpha != null ? Alpha : (Options.Option.JsonOptions.laneTransparencyScroll != null ? Options.Option.JsonOptions.laneTransparencyScroll : FlxG.save.data.laneTransparencyScroll)), Duration, {ease: FlxEase.cubeOut});
 			Actions.Alpha(laneOpponentScroll, (Alpha != null ? Alpha : (Options.Option.JsonOptions.laneTransparencyScroll != null ? Options.Option.JsonOptions.laneTransparencyScroll : FlxG.save.data.laneTransparencyScroll)), Duration, {ease: FlxEase.cubeOut});
