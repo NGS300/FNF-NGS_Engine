@@ -34,6 +34,25 @@ Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine a
 ![F](https://user-images.githubusercontent.com/86559005/180944600-c5bbb619-6dd8-4ddb-ba25-4b3e87f4627c.jpg)
 ![SourcePlayState(Beathit   Stepshit)](https://user-images.githubusercontent.com/86559005/180944925-2bfbaa1e-9e92-4177-bfa3-05fb22e1874f.png)
 
+# Controls:
+1. Keybinds Notes: in options
+2. Options Binds: Enter, Shift, Ctrl, Left Arrow, Right Arrow, Down Arrow, Up Arrow
+3. Freeplay: Enter, Charting Bind Open Charting (Not Very Functional)
+4. ModdingShits, [AnimationOffsets: PageUP - Player, PageDown - Opponent], [Charting: 7 is Default Anything just Change Options], [Skip Chart: Delete]
+5. Console: Just Write
+
+# Extras
+### How do I Release Charting and Etc?
+1. go to the console and type MODDINGTOOLS
+### How I Release Secrets
+2. Shhh. I can not Talk
+### How do I change note speeds?
+3. Go to options in the category of gameplays and hold SHIFT and press left or right.
+### How do I Place Characters?
+4. It's Not Very Difficult It's Similar to Psych.
+### will there be engine wiki and lua in the whole engine?
+5. there will be a wiki about some stuff about source, json and lua (lua is just chart, you will be forced to use source code).
+
 # Build
 ### Installing the Required API Programs
 First Step - Download Haxe Items
