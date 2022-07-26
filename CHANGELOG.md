@@ -117,6 +117,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Tankman Shoots
 - Rename Note DODGE to ALERT
 - All Flas Were Organized
+- Fix Dialogue Show LaneScroll
 
 ## [Beta 0.9] 18/03/2022
 ### Added

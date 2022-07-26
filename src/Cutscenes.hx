@@ -61,7 +61,7 @@ class Cutscenes extends MusicBeatState{
 			new FlxTimer().start(0.3, function(tmr:FlxTimer){
 				camNOTE.alpha = 0;
 				camHUD.alpha = 0;
-				if (Client.Public.mid && FlxG.save.data.laneScroll) laneCamera.alpha = 0;
+				if (FlxG.save.data.laneScroll) laneCamera.alpha = 0;
 				black.alpha -= 0.15;
 				if (black.alpha > 0)
 					tmr.reset(0.3);

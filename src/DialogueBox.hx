@@ -141,7 +141,7 @@ class DialogueBox extends FlxSpriteGroup{
 						FlxG.mouse.visible = false;
 						Actions.Alpha(PlayState.camNOTE, 1, 0.825, {ease: FlxEase.cubeIn});
 						Actions.Alpha(PlayState.camHUD, 1, 0.825, {ease: FlxEase.cubeIn});
-						Actions.Alpha(PlayState.laneCamera, (Options.Option.JsonOptions.laneTransparencyScroll != null ? Options.Option.JsonOptions.laneTransparencyScroll : FlxG.save.data.laneTransparencyScroll), 0.825, {ease: FlxEase.cubeIn});
+						if (FlxG.save.data.laneScroll) Actions.Alpha(PlayState.laneCamera, (Options.Option.JsonOptions.laneTransparencyScroll != null ? Options.Option.JsonOptions.laneTransparencyScroll : FlxG.save.data.laneTransparencyScroll), 0.825, {ease: FlxEase.cubeIn});
 					});
 				}
 			}else{
@@ -156,7 +156,7 @@ class DialogueBox extends FlxSpriteGroup{
 			new FlxTimer().start(1.05, function(tmr:FlxTimer){
 				Actions.Alpha(PlayState.camNOTE, 1, 0.8, {ease: FlxEase.cubeIn});
 				Actions.Alpha(PlayState.camHUD, 1, 0.8, {ease: FlxEase.cubeIn});
-				Actions.Alpha(PlayState.laneCamera, (Options.Option.JsonOptions.laneTransparencyScroll != null ? Options.Option.JsonOptions.laneTransparencyScroll : FlxG.save.data.laneTransparencyScroll), 0.8, {ease: FlxEase.cubeIn});
+				if (FlxG.save.data.laneScroll) Actions.Alpha(PlayState.laneCamera, (Options.Option.JsonOptions.laneTransparencyScroll != null ? Options.Option.JsonOptions.laneTransparencyScroll : FlxG.save.data.laneTransparencyScroll), 0.8, {ease: FlxEase.cubeIn});
 			});
 		}
 		super.update(elapsed);
