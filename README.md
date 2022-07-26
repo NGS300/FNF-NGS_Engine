@@ -7,18 +7,21 @@ Links: **[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](
 ## What is the NGS Engine?
 Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine and as Funkin Base) This Engine Is Focused On Making Mods Like Tricky, QT And etc, It Has Various Presets For You To Use Easy, Besides Having Pre - More Difficulties Than Normal [It's Not Mandatory, You Just Have To Take It Out Of The Options To Not Change The Game Mode], and All Songs Have Been Re-charted, Plus Much More.
 
+### If You Want To Use The Beta
+[NGS Engine Beta](https://github.com/NGS300/NG-S-Engine-BetaOnly) - Beta 0.9
+
 ## What are Presets in NGE?
 **that's it**
 ![Code_QMZyF2I3Yd](https://user-images.githubusercontent.com/86559005/180923665-d609fcf5-57ab-46d3-b6ae-690608186961.png)
 ![Code_5t69bNy4RY](https://user-images.githubusercontent.com/86559005/180923686-7a7e0fe8-cab3-472e-b651-ac35e6391332.png) - There's Much More than That!
 
 # Required:
-1 - a good pc with 6GB or more and that the pc doesn't overload easily and a good response from your pc (gaming and programming), programming has a slightly bigger overload.
+1 - a good pc with 4GB or more and that the pc doesn't overload easily and a good response from your pc (gaming and programming), programming has a slightly bigger overload.
 2 - Required Mouse and Keyboard.
 3 - To program it is necessary to use functions fluidly.
 4 - Have fun and good luck.
 
-# Image of Some Engine Stuff ([skip](#build))
+# Image of Some Engine Stuff ([Skip](#build))
 ![mainmenu](https://user-images.githubusercontent.com/86559005/180936376-0bbafcd0-b9ee-4b28-ae4d-7d6797d2e50f.jpg)
 ![characterSelect](https://user-images.githubusercontent.com/86559005/180943942-6820e8eb-f360-43b3-aa1e-1d3f5485c63f.jpg)
 ![Freeplay](https://user-images.githubusercontent.com/86559005/180944446-4de750c1-656e-4ee4-acb0-997427c5e3f1.jpg)
