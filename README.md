@@ -6,7 +6,7 @@ Links: **[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds](
 
 ## What is the NGS Engine?
 Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine and as Funkin Base) This Engine Is Focused On Making Mods Like Tricky, QT And etc, It Has Various Presets For You To Use Easy, Besides Having Pre - More Difficulties Than Normal [It's Not Mandatory, You Just Have To Take It Out Of The Options To Not Change The Game Mode], and All Songs Have Been Re-charted, Plus Much More.
-**If You Want To Use The Beta**
+*If You Want To Use The Beta*
 [NGS Engine Beta](https://github.com/NGS300/NG-S-Engine-BetaOnly) - Beta 0.9
 
 ## What are Presets in NGE?
