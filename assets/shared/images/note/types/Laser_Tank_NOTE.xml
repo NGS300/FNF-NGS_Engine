@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Laser_Tank_NOTE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dodge Laser DOWN0000" x="35" y="35" width="157" height="154"/>
+	<SubTexture name="Dodge Laser LEFT0000" x="509" y="35" width="154" height="157"/>
+	<SubTexture name="Dodge Laser RIGHT0000" x="743" y="35" width="154" height="157"/>
+	<SubTexture name="Dodge Laser UP0000" x="272" y="35" width="157" height="154"/>
+</TextureAtlas>

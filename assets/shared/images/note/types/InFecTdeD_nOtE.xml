@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="InFecTdeD_nOtE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="IN-fEctEdeD lEft0000" x="509" y="35" width="154" height="157" frameX="-1" frameY="-1" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="IN-fEctEdeD lEft0001" x="509" y="35" width="154" height="157" frameX="0" frameY="-2" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="IN-fEctEdeD lEft0002" x="509" y="35" width="154" height="157" frameX="-3" frameY="-3" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="IN-fEctEdeD lEft0003" x="509" y="35" width="154" height="157" frameX="-2" frameY="-1" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="IN-fEctEdeD lEft0004" x="509" y="35" width="154" height="157" frameX="-4" frameY="0" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="IN-fEctEdeD lEft0005" x="509" y="35" width="154" height="157" frameX="-2" frameY="-3" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="IN-fEctEdeD lEft0006" x="509" y="35" width="154" height="157" frameX="-4" frameY="-1" frameWidth="158" frameHeight="160"/>
+	<SubTexture name="InfeCTedeD RIgHt0000" x="743" y="35" width="154" height="157" frameX="-2" frameY="-1" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="InfeCTedeD RIgHt0001" x="743" y="35" width="154" height="157" frameX="-2" frameY="-2" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="InfeCTedeD RIgHt0002" x="743" y="35" width="154" height="157" frameX="-3" frameY="-1" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="InfeCTedeD RIgHt0003" x="743" y="35" width="154" height="157" frameX="-1" frameY="0" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="InfeCTedeD RIgHt0004" x="743" y="35" width="154" height="157" frameX="0" frameY="-3" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="InfeCTedeD RIgHt0005" x="743" y="35" width="154" height="157" frameX="-3" frameY="-1" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="InfeCTedeD RIgHt0006" x="743" y="35" width="154" height="157" frameX="-2" frameY="-4" frameWidth="157" frameHeight="161"/>
+	<SubTexture name="iNfeCteDed dOwN0000" x="35" y="35" width="157" height="154" frameX="-1" frameY="0" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="iNfeCteDed dOwN0001" x="35" y="35" width="157" height="154" frameX="-2" frameY="-1" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="iNfeCteDed dOwN0002" x="35" y="35" width="157" height="154" frameX="-1" frameY="-2" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="iNfeCteDed dOwN0003" x="35" y="35" width="157" height="154" frameX="-3" frameY="-1" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="iNfeCteDed dOwN0004" x="35" y="35" width="157" height="154" frameX="-1" frameY="-2" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="iNfeCteDed dOwN0005" x="35" y="35" width="157" height="154" frameX="0" frameY="-1" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="iNfeCteDed dOwN0006" x="35" y="35" width="157" height="154" frameX="-2" frameY="-4" frameWidth="160" frameHeight="158"/>
+	<SubTexture name="inFecTedEd uP0000" x="272" y="35" width="157" height="154" frameX="-1" frameY="0" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0001" x="272" y="35" width="157" height="154" frameX="0" frameY="-1" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0002" x="272" y="35" width="157" height="154" frameX="-2" frameY="-2" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0003" x="272" y="35" width="157" height="154" frameX="-1" frameY="0" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0004" x="272" y="35" width="157" height="154" frameX="-3" frameY="-1" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0005" x="272" y="35" width="157" height="154" frameX="-1" frameY="-2" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0006" x="272" y="35" width="157" height="154" frameX="-3" frameY="0" frameWidth="160" frameHeight="156"/>
+	<SubTexture name="inFecTedEd uP0007" x="272" y="35" width="157" height="154" frameX="-3" frameY="-1" frameWidth="160" frameHeight="156"/>
+</TextureAtlas>

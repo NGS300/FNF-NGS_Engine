@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PadLock_NOTE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PadLock Down NOTE0000" x="60" y="60" width="157" height="176" frameX="-6" frameY="-2" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0001" x="297" y="60" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0002" x="534" y="60" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0003" x="771" y="60" width="157" height="176" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0004" x="1008" y="60" width="163" height="181" frameX="0" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0005" x="1251" y="60" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0006" x="1488" y="60" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Down NOTE0007" x="1725" y="60" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0000" x="60" y="321" width="155" height="176" frameX="-7" frameY="-2" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0001" x="295" y="321" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0002" x="530" y="321" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0003" x="765" y="321" width="156" height="176" frameX="-6" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0004" x="1001" y="321" width="162" height="181" frameX="0" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0005" x="1243" y="321" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0006" x="1478" y="321" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Left NOTE0007" x="1713" y="321" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0000" x="60" y="582" width="155" height="176" frameX="-7" frameY="-2" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0001" x="295" y="582" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0002" x="530" y="582" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0003" x="765" y="582" width="156" height="176" frameX="-6" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0004" x="1001" y="582" width="162" height="181" frameX="0" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0005" x="1243" y="582" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0006" x="1478" y="582" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Right NOTE0007" x="1713" y="582" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0000" x="60" y="843" width="157" height="176" frameX="-6" frameY="-2" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0001" x="297" y="843" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0002" x="534" y="843" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0003" x="771" y="843" width="157" height="176" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0004" x="1008" y="843" width="163" height="181" frameX="0" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0005" x="1251" y="843" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0006" x="1488" y="843" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="PadLock Up NOTE0007" x="1725" y="843" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+</TextureAtlas>

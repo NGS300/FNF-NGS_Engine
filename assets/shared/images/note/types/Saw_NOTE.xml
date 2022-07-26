@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Saw_NOTE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Saw BLUE0000" x="860" y="1139" width="189" height="189" frameX="-2" frameY="-2" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0001" x="35" y="35" width="192" height="192" frameX="0" frameY="0" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0002" x="35" y="865" width="190" height="190" frameX="-1" frameY="-1" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0003" x="312" y="35" width="192" height="192" frameX="0" frameY="0" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0004" x="860" y="865" width="190" height="189" frameX="-1" frameY="-2" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0005" x="589" y="35" width="192" height="192" frameX="0" frameY="-1" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0006" x="310" y="865" width="190" height="190" frameX="-1" frameY="-2" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0007" x="1680" y="1140" width="185" height="186" frameX="-4" frameY="-3" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0008" x="1134" y="1139" width="189" height="189" frameX="-2" frameY="-1" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw BLUE0009" x="1420" y="312" width="192" height="191" frameX="-1" frameY="0" frameWidth="193" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0000" x="35" y="1140" width="189" height="189" frameX="-2" frameY="-2" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0001" x="866" y="35" width="192" height="192" frameX="0" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0002" x="585" y="865" width="190" height="190" frameX="-1" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0003" x="1143" y="35" width="192" height="192" frameX="0" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0004" x="1697" y="312" width="192" height="191" frameX="0" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0005" x="1139" y="589" width="190" height="191" frameX="-1" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0006" x="1420" y="35" width="192" height="192" frameX="0" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0007" x="1408" y="1140" width="187" height="187" frameX="-3" frameY="-4" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0008" x="1680" y="1411" width="185" height="185" frameX="-4" frameY="-3" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw GREEN0009" x="35" y="589" width="191" height="191" frameX="-1" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0000" x="309" y="1140" width="189" height="189" frameX="-2" frameY="-2" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0001" x="1697" y="35" width="192" height="192" frameX="0" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0002" x="311" y="589" width="191" height="191" frameX="-1" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0003" x="35" y="312" width="192" height="192" frameX="0" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0004" x="1135" y="865" width="190" height="189" frameX="-1" frameY="-2" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0005" x="312" y="312" width="192" height="192" frameX="0" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0006" x="587" y="589" width="191" height="191" frameX="-1" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0007" x="857" y="1413" width="184" height="184" frameX="-4" frameY="-5" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0008" x="1408" y="1412" width="184" height="185" frameX="-4" frameY="-3" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw PURPLE0009" x="1697" y="588" width="191" height="192" frameX="-1" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0000" x="583" y="1140" width="189" height="189" frameX="-2" frameY="-2" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0001" x="589" y="312" width="192" height="192" frameX="0" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0002" x="1414" y="864" width="190" height="191" frameX="-1" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0003" x="866" y="312" width="192" height="192" frameX="0" frameY="0" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0004" x="1420" y="588" width="192" height="191" frameX="0" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0005" x="1143" y="312" width="192" height="192" frameX="0" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0006" x="863" y="589" width="191" height="191" frameX="-1" frameY="-1" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0007" x="1126" y="1413" width="184" height="184" frameX="-4" frameY="-5" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0008" x="35" y="1414" width="181" height="181" frameX="-6" frameY="-5" frameWidth="192" frameHeight="193"/>
+	<SubTexture name="Saw RED0009" x="1689" y="865" width="189" height="190" frameX="-2" frameY="-1" frameWidth="192" frameHeight="193"/>
+</TextureAtlas>

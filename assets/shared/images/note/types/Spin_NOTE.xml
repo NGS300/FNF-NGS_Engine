@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Spin_NOTE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SpinWhell0000" x="35" y="35" width="279" height="279"/>
+	<SubTexture name="SpinWhell0001" x="1102" y="35" width="253" height="254" frameX="-13" frameY="-13" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="SpinWhell0002" x="1435" y="35" width="238" height="247" frameX="-21" frameY="-12" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="SpinWhell0003" x="752" y="35" width="270" height="271" frameX="-3" frameY="-4" frameWidth="279" frameHeight="279"/>
+	<SubTexture name="SpinWhell0004" x="394" y="35" width="278" height="279" frameX="0" frameY="0" frameWidth="279" frameHeight="279"/>
+</TextureAtlas>
