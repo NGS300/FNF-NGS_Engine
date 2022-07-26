@@ -213,7 +213,7 @@ class TitleState extends MusicBeatState{
 		var fullText:String = Assets.getText(Paths.txt('IntroText'));
 		var firstArray:Array<String> = fullText.split('\n');
 		var swagGoodArray:Array<Array<String>> = [];
-		for (i in firstArray){ swagGoodArray.push(i.split('--')); }
+		for (i in firstArray){ swagGoodArray.push(i.split(' - ')); }
 		return swagGoodArray;
 	}
 	function createCoolText(textArray:Array<String>){
