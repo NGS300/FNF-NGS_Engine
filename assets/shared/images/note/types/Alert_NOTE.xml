@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Alert_NOTE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Alert Note0000" x="40" y="40" width="160" height="148"/>
+	<SubTexture name="Alert Note0001" x="40" y="40" width="160" height="148"/>
+	<SubTexture name="Alert Note0002" x="40" y="40" width="160" height="148"/>
+	<SubTexture name="Alert Note0003" x="290" y="40" width="160" height="148"/>
+	<SubTexture name="Alert Note0004" x="290" y="40" width="160" height="148"/>
+	<SubTexture name="Alert Note0005" x="290" y="40" width="160" height="148"/>
+</TextureAtlas>
