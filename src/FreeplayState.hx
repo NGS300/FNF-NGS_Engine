@@ -20,6 +20,7 @@ class FreeplayState extends MusicBeatState{
 	public var colorTween:FlxTween;
 	public var curSelected:Int = 0;
 	var optionsSubIcon:NewSprite;
+	var endlessScoreText:FlxText;
 	public var songText:Alphabet;
 	var statsTextScale:Int = 27;
 	var ALPHABGS:Float = 0.625; // default 0.75
@@ -83,6 +84,11 @@ class FreeplayState extends MusicBeatState{
 			add(icon);
 		}
 
+		// Endless Score Text
+		endlessScoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
+		endlessScoreText.setFormat(Paths.font("Highman.ttf"), 30, FlxColor.WHITE, RIGHT);
+		endlessScoreText.x -= 425;
+
 		// Score Text
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("Highman.ttf"), 30, FlxColor.WHITE, RIGHT);
@@ -125,13 +131,14 @@ class FreeplayState extends MusicBeatState{
 		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
 		add(diffText);
-		add(scoreText);
 		if (!Client.Public.endless){
+			add(scoreText);
 			add(missesText);
 			add(accuracyText);
 			add(comboMaxText);
 			add(ratingTxt);
-		}
+		}else
+			add(endlessScoreText);
 		changeTrack();
 		changeDiff();
 		super.create();
@@ -170,13 +177,15 @@ class FreeplayState extends MusicBeatState{
 		}else
 			if (!OptionsMenu.isFreeplay) Actions.PlaySprAnim(optionsSubIcon, 'SubOptions_Idle');
 
+		// Endless Score Shit
+		lerpEndlessScore = Math.floor(FlxMath.lerp(lerpEndlessScore, intendedEndlessScore, 0.4));
+		if (Math.abs(lerpEndlessScore - intendedEndlessScore) <= 10) lerpEndlessScore = intendedEndlessScore;
+		endlessScoreText.text = "Best Endless Score: " + lerpEndlessScore;
+
 		// Score Shit
-		if (Client.Public.endless)
-			lerpEndlessScore = Math.floor(FlxMath.lerp(lerpEndlessScore, intendedEndlessScore, 0.4));
-		else
-			lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, 0.4));
-		if (Math.abs((!Client.Public.endless ? lerpScore - intendedScore : lerpEndlessScore - intendedEndlessScore)) <= 10) (!Client.Public.endless ? lerpScore = intendedScore : lerpEndlessScore = intendedEndlessScore);
-		scoreText.text = (!Client.Public.endless ? "Best Score: " + lerpScore : "Best Endless Score: " + lerpEndlessScore);
+		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, 0.4));
+		if (Math.abs(lerpScore - intendedScore) <= 10) lerpScore = intendedScore;
+		scoreText.text = "Best Score: " + lerpScore;
 
 		// Accuracy Shit
 		lerpAccuracy = CoolUtil.floatDecimals(lerpAccuracy, 2);
@@ -253,15 +262,15 @@ class FreeplayState extends MusicBeatState{
 		StateImage.BGSMenus('FreeplaySwitchBGColor');
 		DiscordClient.globalPresence('FreeplayState');
 		#if !switch
-		if (!Client.Public.endless)
+		if (!Client.Public.endless){
 			intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
-		else
-			lerpEndlessScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
-		intendedMisses = Highscore.getMisses(songs[curSelected].songName, curDifficulty);
-		rating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
-		ratingFC = Highscore.getFCRating(songs[curSelected].songName, curDifficulty);
-		intendedMAXCB = Highscore.getComboMax(songs[curSelected].songName, curDifficulty);
-		lerpAccuracy = Highscore.getAccuracy(songs[curSelected].songName, curDifficulty);
+			intendedMisses = Highscore.getMisses(songs[curSelected].songName, curDifficulty);
+			rating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
+			ratingFC = Highscore.getFCRating(songs[curSelected].songName, curDifficulty);
+			intendedMAXCB = Highscore.getComboMax(songs[curSelected].songName, curDifficulty);
+			lerpAccuracy = Highscore.getAccuracy(songs[curSelected].songName, curDifficulty);
+		}else
+			lerpEndlessScore = Highscore.getEndlessScore(songs[curSelected].songName, curDifficulty);
 		#end
 		var bullShit:Int = 0;
 		for (i in 0...iconArray.length) iconArray[i].alpha = 0.2;
@@ -283,15 +292,15 @@ class FreeplayState extends MusicBeatState{
 			case 3: pussy(CoolUtil.PushDiff.DifficultyNames.length); // HybridMode
 		}
 		#if !switch
-		if (!Client.Public.endless)
+		if (!Client.Public.endless){
 			intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
-		else
-			intendedEndlessScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
-		intendedMisses = Highscore.getMisses(songs[curSelected].songName, curDifficulty);
-		rating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
-		ratingFC = Highscore.getFCRating(songs[curSelected].songName, curDifficulty);
-		intendedMAXCB = Highscore.getComboMax(songs[curSelected].songName, curDifficulty);
-		lerpAccuracy = Highscore.getAccuracy(songs[curSelected].songName, curDifficulty);
+			intendedMisses = Highscore.getMisses(songs[curSelected].songName, curDifficulty);
+			rating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
+			ratingFC = Highscore.getFCRating(songs[curSelected].songName, curDifficulty);
+			intendedMAXCB = Highscore.getComboMax(songs[curSelected].songName, curDifficulty);
+			lerpAccuracy = Highscore.getAccuracy(songs[curSelected].songName, curDifficulty);
+		}else
+			intendedEndlessScore = Highscore.getEndlessScore(songs[curSelected].songName, curDifficulty);
 		#end
 		diffText.text = CoolUtil.difficultyFromInt(curDifficulty).toUpperCase();
 	}

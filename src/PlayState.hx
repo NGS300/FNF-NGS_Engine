@@ -627,8 +627,7 @@ class PlayState extends MusicBeatState{
 			vocals.stop();
 			FlxG.sound.music.stop();
 			Actions.Flash(FlxG.camera, FlxColor.RED, 1);
-			if (SONG.validScore && !Client.Public.botplay && Client.Public.endless) // ENDLESS SAVE SCORE
-				Highscore.saveEndlessScore(SONG.song, chartScore, mainDifficulty);
+			if (SONG.validScore && !Client.Public.botplay && Client.Public.endless) Highscore.saveEndlessScore(SONG.song, chartScore, mainDifficulty); // ENDLESS SAVE SCORE
 			if (FlxG.save.data.autoRespawn && !Client.Public.endless){
 				Actions.PlaySound('missSound/lose/fnf_loss_sfx' + GameOverSubstate.mapSuffix, 'character');
 				Actions.States('Switch', new PlayState());
