@@ -122,6 +122,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix Flashbang Note
 - Fix EngineMark Alpha Error
 - Fix Pause Duplication
+- Fix Endless Score (I Think)
 
 ## [Beta 0.9] 18/03/2022
 ### Added
