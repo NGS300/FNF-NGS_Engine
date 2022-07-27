@@ -124,13 +124,12 @@ class CharacterSelect extends MusicBeatState{
             }
             if (controls.ACCEPT){
                 lockedCharSelected = true;
-                (CharacterSettigs.CharacterRecognition.Boyfriends[curSelectedChar] == 'bf' ? charSelected = PlayState.SONG.player1 : charSelected = CharacterSettigs.CharacterRecognition.Boyfriends[curSelectedChar]);
+                charSelected = CharacterSettigs.CharacterRecognition.Boyfriends[curSelectedChar];
                 FlxFlicker.flicker(characterSeeArray[curSelectedChar], 0);
-                if (PlayState.stateShit != 'Secret') Actions.PlaySound('confirmMenu');
                 switch (PlayState.stateShit){
-                    case 'StoryMode': StoryMenuState.loadStoryCutscene();
+                    case 'StoryMode': Actions.PlaySound('confirmMenu'); StoryMenuState.loadStoryCutscene();
                     case 'Secret': ConsoleCodeState.loadSecretSong(getSongName);
-                    case 'Freeplay': new FlxTimer().start(0.5, function(tmr:FlxTimer){ Actions.States('LoadSwitch', new PlayState()); });
+                    case 'Freeplay': Actions.PlaySound('confirmMenu'); new FlxTimer().start(0.5, function(tmr:FlxTimer){ Actions.States('LoadSwitch', new PlayState()); });
                 }
             }
         }

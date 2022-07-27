@@ -11,10 +11,10 @@ class PauseSubState extends MusicBeatSubstate{
 	public static var goToOptions:Bool = false;
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 	public static var goBack:Bool = false;
+	//public static var pauseMusic:FlxSound;
 	var menuItems:Array<String> = [];
 	var menuPage:String = "Default";
 	var curSelected:Int = 0;
-	var pauseMusic:FlxSound;
 	function checkMenuShit(){
 		var daSelected:String = menuItems[curSelected];
 		switch (menuPage){
@@ -76,10 +76,10 @@ class PauseSubState extends MusicBeatSubstate{
 	public function new(){
 		super();
 		menuItems = ['Resume', 'Options', 'Difficulty', 'Restart Track', 'Exit to Menus'];
-		pauseMusic = new FlxSound().loadEmbedded(Paths.music('breakfast'), true, true);
+		/*pauseMusic = new FlxSound().loadEmbedded(Paths.music('breakfast'), true, true);
 		pauseMusic.volume = 0;
 		pauseMusic.play(false, FlxG.random.int(0, Std.int(pauseMusic.length / 2)));
-		FlxG.sound.list.add(pauseMusic);
+		FlxG.sound.list.add(pauseMusic);*/
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		bg.alpha = 0;
@@ -141,7 +141,7 @@ class PauseSubState extends MusicBeatSubstate{
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
 	}
 	override function update(elapsed:Float){
-		if (pauseMusic.volume < 0.5) pauseMusic.volume += 0.01 * elapsed;
+		if (PlayState.pauseMusic.volume < 0.5) PlayState.pauseMusic.volume += 0.01 * elapsed;
 		super.update(elapsed);
 		if (controls.UP_P) changeSelection(-1);
 		if (controls.DOWN_P) changeSelection(1);
@@ -152,12 +152,7 @@ class PauseSubState extends MusicBeatSubstate{
 		}
 	}
 	override function destroy(){
-		if (!goToOptions){
-			pauseMusic.destroy();
-			new FlxTimer().start(0, function(tmr:FlxTimer){ // Reset Dodge
-				pauseMusic.destroy();
-			});
-		}
+		if (!goToOptions) PlayState.pauseMusic.destroy();
 		super.destroy();
 	}
 	function changeSelection(change:Int = 0):Void{

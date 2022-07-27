@@ -81,26 +81,16 @@ class TrackMap extends MusicBeatState{
 	public static var tent:NewSprite;
 	public static function LoadTrackMap(pull:Dynamic, Track:String){
 		switch (Track){ // Push Tracks Maps of Functios MAP, Just Make You Map :D
-			default: 
-				mapType('create', pull, 'stage');
-            case 'spookeez' | 'south' | 'monster': 
-				mapType('create', pull, 'spooky');
-		    case 'pico' | 'blammed' | 'philly': 
-				mapType('create', pull, 'philly');
-		    case 'milf' | 'satin-panties' | 'high': 
-				mapType('create', pull, 'limo');
-		    case 'cocoa' | 'eggnog': 
-				mapType('create', pull, 'mall');
-		    case 'winter-horrorland': 
-				mapType('create', pull, 'mallEvil');
-		    case 'senpai' | 'roses': 
-				mapType('create', pull, 'school');
-		    case 'thorns': 
-				mapType('create', pull, 'schoolEvil');
-			case 'ugh' | 'guns' | 'stress': 
-				mapType('create', pull, 'tankDesert');
-			case 'tanpowder': 
-				mapType('create', pull, 'nevada');
+			default: mapType('create', pull, 'stage');
+            case 'spookeez' | 'south' | 'monster': mapType('create', pull, 'spooky');
+		    case 'pico' | 'blammed' | 'philly': mapType('create', pull, 'philly');
+		    case 'milf' | 'satin-panties' | 'high': mapType('create', pull, 'limo');
+		    case 'cocoa' | 'eggnog': mapType('create', pull, 'mall');
+		    case 'winter-horrorland': mapType('create', pull, 'mallEvil');
+		    case 'senpai' | 'roses': mapType('create', pull, 'school');
+		    case 'thorns': mapType('create', pull, 'schoolEvil');
+			case 'ugh' | 'guns' | 'stress': mapType('create', pull, 'tankDesert');
+			case 'tanpowder': mapType('create', pull, 'nevada');
         }
 	}
 	public static function mapPlaces(trackLower:String, Place:String, get:Dynamic, opponent:Character, gf:Character, bf:Boyfriend){
@@ -123,63 +113,53 @@ class TrackMap extends MusicBeatState{
 						camZoom = 0.9;
 						curMap = 'stage';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'stageSpr');
+						GetSprMap(create, 'stageSpr');
 					case 'spooky':
 						camZoom = 1.05;
 						curMap = 'spooky';
 						isHalloween = true;
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'spookySpr');
+						GetSprMap(create, 'spookySpr');
 					case 'philly':
 						camZoom = 1.05;
 						curMap = 'philly';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'phillySpr');
+						GetSprMap(create, 'phillySpr');
 					case 'limo':
 						camZoom = .9;
 						curMap = 'limo';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'limoSpr');
+						GetSprMap(create, 'limoSpr');
 					case 'mall':
 						camZoom = .8;
 						curMap = 'mall';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'mallSpr');
+						GetSprMap(create, 'mallSpr');
 					case 'mallEvil':
 						camZoom = 1.05;
 						curMap = 'mallEvil';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'mallEvilSpr');
+						GetSprMap(create, 'mallEvilSpr');
 					case 'school':
 						camZoom = 1.05;
 						curMap = 'school';
 						mapComplement = 'pixel';
-						if (Client.Public.map)
-							GetSprMap(create, 'schoolSpr');
+						GetSprMap(create, 'schoolSpr');
 					case 'schoolEvil':
 						camZoom = 1.05;
 						curMap = 'schoolEvil';
 						mapComplement = 'pixel';
-						if (Client.Public.map)
-							GetSprMap(create, 'schoolEvilSpr');
+						GetSprMap(create, 'schoolEvilSpr');
 					case 'tankDesert':
 						camZoom = 0.9;
 						curMap = 'tankDesert';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'tankDesertSpr');
+						GetSprMap(create, 'tankDesertSpr');
 					case 'nevada':
 						camZoom = 0.8;
 						curMap = 'nevada';
 						mapComplement = '';
-						if (Client.Public.map)
-							GetSprMap(create, 'nevadaSpr');
+						GetSprMap(create, 'nevadaSpr');
 				}
 			case 'update': // PlayState Update
 				if (Client.Public.map){
@@ -324,325 +304,327 @@ class TrackMap extends MusicBeatState{
 		}
 	}
 	public static function GetSprMap(create:Null<Dynamic>, MapName:Null<String> = null){
-		switch (MapName){
-            case 'stageSpr':
-				var bg:NewSprite = new NewSprite(-600, -200, 'stage/stageback', 'maps', true, 1, 0.9, 0.9);
-				create(bg);
+		if (Client.Public.map){
+			switch (MapName){
+				case 'stageSpr':
+					var bg:NewSprite = new NewSprite(-600, -200, 'stage/stageback', 'maps', true, 1, 0.9, 0.9);
+					create(bg);
 
-				var stageFront:NewSprite = new NewSprite(-650, 600, 'stage/stagefront', 'maps', true, 1, 0.9, 0.9);
-				NewSprite.SpriteComplement.setVariables(stageFront, true, 1.1);
-				create(stageFront);
+					var stageFront:NewSprite = new NewSprite(-650, 600, 'stage/stagefront', 'maps', true, 1, 0.9, 0.9);
+					NewSprite.SpriteComplement.setVariables(stageFront, true, 1.1);
+					create(stageFront);
 
-				var stageCurtains:NewSprite = new NewSprite(-500, -300, 'stage/stagecurtains', 'maps', true, 1, 1.3, 1.3);
-				NewSprite.SpriteComplement.setVariables(stageCurtains, true, 0.9);
-				if (FlxG.save.data.visualDistractions)
-					create(stageCurtains);
-			case 'spookySpr':
-				halloweenBG = new NewSprite(-200, -100, 'spooky/halloween_bg', 'maps', true, 1, 1, 1, ['halloweem bg0', 'halloweem bg lightning strike']);
-				create(halloweenBG);
-			case 'phillySpr':
-				var sky:NewSprite = new NewSprite(-100, 'philly/sky', 'maps', true, 1, 0.1, 0.1);
-				if (FlxG.save.data.visualDistractions)
+					var stageCurtains:NewSprite = new NewSprite(-500, -300, 'stage/stagecurtains', 'maps', true, 1, 1.3, 1.3);
+					NewSprite.SpriteComplement.setVariables(stageCurtains, true, 0.9);
+					if (FlxG.save.data.visualDistractions)
+						create(stageCurtains);
+				case 'spookySpr':
+					halloweenBG = new NewSprite(-200, -100, 'spooky/halloween_bg', 'maps', true, 1, 1, 1, ['halloweem bg0', 'halloweem bg lightning strike']);
+					create(halloweenBG);
+				case 'phillySpr':
+					var sky:NewSprite = new NewSprite(-100, 'philly/sky', 'maps', true, 1, 0.1, 0.1);
+					if (FlxG.save.data.visualDistractions)
+						create(sky);
+
+					var cityBG:NewSprite = new NewSprite(-100, 'philly/city', 'maps', true, 1, 0.3, 0.3);
+					NewSprite.SpriteComplement.setVariables(cityBG, true, 0.85);
+					create(cityBG);
+
+					if (FlxG.save.data.visualDistractions){
+						phillyCityLights = new FlxTypedGroup<NewSprite>();
+						create(phillyCityLights);
+						for (i in 0...5){
+							var light:NewSprite = new NewSprite(cityBG.x, 'philly/win' + i, 'maps', false, 1, 0.3, 0.3);
+							NewSprite.SpriteComplement.setVariables(light, true, 0.85);
+							phillyCityLights.add(light);
+						}
+					}
+
+					var streetBehind:NewSprite = new NewSprite(-40, 50, 'philly/behindTrain', 'maps');
+					if (FlxG.save.data.visualDistractions)
+						create(streetBehind);
+
+					phillyTrain = new NewSprite(2000, 360, 'philly/train', 'maps');
+					if (FlxG.save.data.visualDistractions)
+						create(phillyTrain);
+
+					trainSound = new FlxSound().loadEmbedded(Paths.sound('philly/train_passes', 'maps'));
+					FlxG.sound.list.add(trainSound);
+
+					var street:NewSprite = new NewSprite(-40, streetBehind.y, 'philly/street', 'maps');
+					create(street);
+				case 'limoSpr':
+					var skyBG:NewSprite = new NewSprite(-120, -50, 'limo/limoSunset', 'maps', true, 1, 0.1, 0.1);
+					create(skyBG);
+
+					var bgLimo:NewSprite = new NewSprite(-200, 480, 'limo/bgLimo', 'maps', true, 1, 0.4, 0.4, ['background limo pink'], 24, true);
+					if (FlxG.save.data.visualDistractions)
+						create(bgLimo);
+
+					if (FlxG.save.data.visualDistractions){
+						grpLimoDancers = new FlxTypedGroup<BackgroundDancer>();
+						create(grpLimoDancers);
+						for (i in 0...5){
+							var dancer:BackgroundDancer = new BackgroundDancer((370 * i) + 130, bgLimo.y - 400, 0.4, 0.4);
+							grpLimoDancers.add(dancer);
+						}
+					}
+					limo = new NewSprite(-120, 550, 'limo/limoDrive', 'maps', true, 1, 1, 1, ['Limo stage'], 24, true);
+					fastCar = new NewSprite(-300, 160, 'limo/fastCarLol', 'maps');
+					fastCar.active = true;
+				case 'mallSpr':
+					var bg:NewSprite = new NewSprite(-1000, -500, 'mall/bgWalls', 'maps', true, 1, 0.2, 0.2);
+					NewSprite.SpriteComplement.setVariables(bg, true, 0.8);
+					create(bg);
+
+					upperBoppers = new NewSprite(-240, -90, 'mall/upperBop', 'maps', true, 1, 0.33, 0.33, ['Upper Crowd Bob']);
+					NewSprite.SpriteComplement.setVariables(upperBoppers, true, 0.85);
+					if (FlxG.save.data.visualDistractions)
+						create(upperBoppers);
+
+					var bgEscalator:NewSprite = new NewSprite(-1100, -600, 'mall/bgEscalator', 'maps', true, 1, 0.3, 0.3);
+					NewSprite.SpriteComplement.setVariables(bgEscalator, true, 0.9);
+					if (FlxG.save.data.visualDistractions)
+						create(bgEscalator);
+
+					var tree:NewSprite = new NewSprite(-370, -250, 'mall/christmasTree', 'maps', true, 1, 0.4, 0.4);
+					if (FlxG.save.data.visualDistractions)
+						create(tree);
+
+					bottomBoppers = new NewSprite(-300, 140, 'mall/bottomBop', 'maps', true, 1, 0.9, 0.9, ['Bottom Level Boppers Idle', 'Bottom Level Boppers HEY!!']);
+					NewSprite.SpriteComplement.setVariables(bottomBoppers, true, 1);
+					if (FlxG.save.data.visualDistractions)
+						create(bottomBoppers);
+
+					var fgSnow:NewSprite = new NewSprite(-600, 700, 'mall/fgSnow', 'maps');
+					create(fgSnow);
+
+					santa = new NewSprite(-840, 150, 'mall/santa', 'maps', true, 1, 1, 1, ['santa idle in fear']);
+					if (FlxG.save.data.visualDistractions)
+						create(santa);
+
+					if (FlxG.save.data.visualDistractions && FlxG.save.data.visualEffects){
+						//RIGHT
+						snowEmitterR = new FlxEmitter(FlxG.width / 2 - 760, FlxG.height / 2 - 760);
+						snowEmitterR.makeParticles(4, 4, FlxColor.WHITE, 500);
+						snowEmitterR.launchAngle.set(23, 167);
+						snowEmitterR.launchMode = FlxEmitterMode.CIRCLE;
+						snowEmitterR.velocity.set(200, -100, 200, 100);
+						snowEmitterR.lifespan.set(300, 300);
+						snowEmitterR.start(false, 0.1);
+						//CENTER
+						snowEmitterC = new FlxEmitter(FlxG.width / 2, FlxG.height / 2 - 512);
+						snowEmitterC.makeParticles(4, 4, FlxColor.WHITE, 500);
+						snowEmitterC.launchAngle.set(0, 180);
+						snowEmitterC.launchMode = FlxEmitterMode.CIRCLE;
+						snowEmitterC.velocity.set(200, -100, 200, 100);
+						snowEmitterC.lifespan.set(300, 300);
+						snowEmitterC.start(false, 0.1);
+						//LEFT
+						snowEmitterL = new FlxEmitter(FlxG.width / 2  + 512, FlxG.height / 2 - 512);
+						snowEmitterL.makeParticles(4, 4, FlxColor.WHITE, 500);
+						snowEmitterL.launchAngle.set(23, 167);
+						snowEmitterL.launchMode = FlxEmitterMode.CIRCLE;
+						snowEmitterL.velocity.set(200, -100, 200, 100);
+						snowEmitterL.lifespan.set(300, 300);
+						snowEmitterL.start(false, 0.1);
+						create(snowEmitterR);
+						create(snowEmitterC);
+						create(snowEmitterL);
+					}
+				case 'mallEvilSpr':
+					var bg:NewSprite = new NewSprite(-400, -500, 'mall/evil/evilBG', 'maps', true, 1, 0.2, 0.2);
+					NewSprite.SpriteComplement.setVariables(bg, true, 0.8);
+					create(bg);
+
+					var evilTree:NewSprite = new NewSprite(300, -300, 'mall/evil/evilTree', 'maps', true, 1, 0.2, 0.2);
+					if (FlxG.save.data.visualDistractions)
+						create(evilTree);
+						
+					var evilSnow:NewSprite = new NewSprite(-200, 700, 'mall/evil/evilSnow', 'maps');
+					create(evilSnow);
+
+					if (FlxG.save.data.visualDistractions && FlxG.save.data.visualEffects){
+						//RIGHT
+						snowEmitterR = new FlxEmitter(FlxG.width / 2 - 760, FlxG.height / 2 - 760);
+						snowEmitterR.makeParticles(4, 4, FlxColor.RED, 500);
+						snowEmitterR.launchAngle.set(23, 167);
+						snowEmitterR.launchMode = FlxEmitterMode.CIRCLE;
+						snowEmitterR.velocity.set(200, -100, 200, 100);
+						snowEmitterR.lifespan.set(300, 300);
+						snowEmitterR.start(false, 0.1);
+						//CENTER
+						snowEmitterC = new FlxEmitter(FlxG.width / 2, FlxG.height / 2 - 512);
+						snowEmitterC.makeParticles(4, 4, FlxColor.RED, 500);
+						snowEmitterC.launchAngle.set(0, 180);
+						snowEmitterC.launchMode = FlxEmitterMode.CIRCLE;
+						snowEmitterC.velocity.set(200, -100, 200, 100);
+						snowEmitterC.lifespan.set(300, 300);
+						snowEmitterC.start(false, 0.1);
+						//LEFT
+						snowEmitterL = new FlxEmitter(FlxG.width / 2  + 512, FlxG.height / 2 - 512);
+						snowEmitterL.makeParticles(4, 4, FlxColor.RED, 500);
+						snowEmitterL.launchAngle.set(23, 167);
+						snowEmitterL.launchMode = FlxEmitterMode.CIRCLE;
+						snowEmitterL.velocity.set(200, -100, 200, 100);
+						snowEmitterL.lifespan.set(300, 300);
+						snowEmitterL.start(false, 0.1);
+						create(snowEmitterR);
+						create(snowEmitterC);
+						create(snowEmitterL);
+					}
+				case 'schoolSpr':
+					var bgSky:NewSprite = new NewSprite(0, 0, 'school/weebSky', 'maps', true, 1, 0.1, 0.1);
+					var widShit = Std.int(bgSky.width * 6);
+					bgSky.setGraphicSize(widShit);
+					NewSprite.SpriteComplement.setVariables(bgSky, true);
+					create(bgSky);
+
+					var bgSchool:NewSprite = new NewSprite(-200, 0, 'school/weebSchool', 'maps', true, 1, 0.6, 0.9);
+					bgSchool.setGraphicSize(widShit);
+					NewSprite.SpriteComplement.setVariables(bgSchool, true);
+					create(bgSchool);
+
+					var bgStreet:NewSprite = new NewSprite(-200, 0, 'school/weebStreet', 'maps', true, 1, 0.95, 0.95);
+					bgStreet.setGraphicSize(widShit);
+					NewSprite.SpriteComplement.setVariables(bgStreet, true);
+					create(bgStreet);
+
+					var fgTrees:NewSprite = new NewSprite(-200 + 170, 130, 'school/weebTreesBack', 'maps', true, 1, 0.9, 0.9);
+					fgTrees.setGraphicSize(Std.int(widShit * 0.8));
+					NewSprite.SpriteComplement.setVariables(fgTrees, true);
+					if (FlxG.save.data.visualEffects)
+						create(fgTrees);
+
+					var bgTrees:FlxSprite = new FlxSprite(-200 - 380, -800);
+					var treetex = Paths.getPackerAtlas('school/weebTrees', 'maps');
+					bgTrees.frames = treetex;
+					bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
+					bgTrees.animation.play('treeLoop');
+					bgTrees.scrollFactor.set(0.85, 0.85);
+					bgTrees.setGraphicSize(Std.int(widShit * 1.4));
+					NewSprite.SpriteComplement.setVariables(bgTrees, true, null, null, null, null, null, false);
+					if (FlxG.save.data.visualEffects)
+						create(bgTrees);
+
+					var treeLeaves:NewSprite = new NewSprite(-200, -40, 'school/petals', 'maps', true, 1, 0.85, 0.85, ['PETALS ALL'], 24, true);
+					treeLeaves.setGraphicSize(widShit);
+					NewSprite.SpriteComplement.setVariables(treeLeaves, true);
+					if (FlxG.save.data.visualEffects)
+						create(treeLeaves);
+
+					bgGirls = new BackgroundGirls(-100, 190, 0.9, 0.9);
+					if (PlayState.SONG.song.toLowerCase() == 'roses')
+						bgGirls.getScared();
+					bgGirls.setGraphicSize(Std.int(bgGirls.width * daPixelZoom));
+					NewSprite.SpriteComplement.setVariables(bgGirls, true);
+					if (FlxG.save.data.visualDistractions)
+						create(bgGirls);
+				case 'schoolEvilSpr':
+					var evilSchool:NewSprite = new NewSprite(400, 200, 'school/evil/animatedEvilSchool', 'maps', true, 1, 0.8, 0.9, ['background 2'], 24, true);
+					evilSchool.scale.set(6, 6);
+					create(evilSchool);
+				case 'tankDesertSpr':
+					if (PlayState.SONG.song.toLowerCase() == 'stress'){
+						picoSpeakerShotingStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/PicoSpeakerShootSteps')));
+						johnRunningStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/JohnRunnersSpawnSteps')));
+					}
+
+					sky = new NewSprite(-400, -400, 'tankDesert/tankSky', 'maps', true, 1, 0, 0);
+					NewSprite.SpriteComplement.setVariables(sky, false, 1.5);
 					create(sky);
 
-				var cityBG:NewSprite = new NewSprite(-100, 'philly/city', 'maps', true, 1, 0.3, 0.3);
-				NewSprite.SpriteComplement.setVariables(cityBG, true, 0.85);
-				create(cityBG);
+					var clouds:NewSprite = new NewSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20), 'tankDesert/tankClouds', 'maps', true, 1, 0.1, 0.1);
+					clouds.velocity.x = FlxG.random.float(5, 15);
+					NewSprite.SpriteComplement.setVariables(clouds, true);
+					if (FlxG.save.data.visualDistractions)
+						create(clouds);
 
-				if (FlxG.save.data.visualDistractions){
-					phillyCityLights = new FlxTypedGroup<NewSprite>();
-					create(phillyCityLights);
-					for (i in 0...5){
-						var light:NewSprite = new NewSprite(cityBG.x, 'philly/win' + i, 'maps', false, 1, 0.3, 0.3);
-						NewSprite.SpriteComplement.setVariables(light, true, 0.85);
-						phillyCityLights.add(light);
+					var mountains:NewSprite = new NewSprite(-300, -20, 'tankDesert/tankMountains', 'maps', true, 1, 0.2, 0.2);
+					NewSprite.SpriteComplement.setVariables(mountains, true, 1.2);
+					create(mountains);
+
+					var buildings:NewSprite = new NewSprite(-200, 0, 'tankDesert/tankBuildings', 'maps', true, 1, 0.3, 0.3);
+					NewSprite.SpriteComplement.setVariables(buildings, true, 1.1);
+					if (FlxG.save.data.visualDistractions)
+						create(buildings);
+
+					var ruins:NewSprite = new NewSprite(-200, 0, 'tankDesert/tankRuins', 'maps', true, 1, 0.35, 0.35);
+					NewSprite.SpriteComplement.setVariables(ruins, true, 1.1);
+					if (FlxG.save.data.visualDistractions)
+						create(ruins);
+
+					var smokeLeft:NewSprite = new NewSprite(-200, -100, 'tankDesert/smokeLeft', 'maps', true, 1, 0.4, 0.4, ['SmokeBlurLeft '], 24, true);
+					if (FlxG.save.data.visualDistractions)
+						create(smokeLeft);
+
+					var smokeRight:NewSprite = new NewSprite(1100, -100, 'tankDesert/smokeRight', 'maps', true, 1, 0.4, 0.4, ['SmokeRight '], 24, true);
+					if (FlxG.save.data.visualDistractions)
+						create(smokeRight);
+
+					var tankWatchtower:NewSprite = new NewSprite(100, 120, 'tankDesert/tankWatchtower', 'maps', true, 1, 0.5, 0.5, ['watchtower gradient color instance 1'], 24, true);
+					if (FlxG.save.data.visualDistractions)
+						create(tankWatchtower);
+
+					tankRolling = new NewSprite(300, 300, 'tankDesert/tankRolling', 'maps', true, 1, 0.5, 0.5, ['BG tank w lighting instance 1'], 24, true);
+					if (FlxG.save.data.visualDistractions)
+						create(tankRolling);
+
+					johnRun = new FlxTypedGroup<JohnRunnerBG>();
+					if (FlxG.save.data.visualDistractions && PlayState.SONG.song.toLowerCase() == 'stress')
+						create(johnRun);
+
+					if (PlayState.SONG.song.toLowerCase() == 'guns'){
+						bgSpace = new FlxSprite().makeGraphic(5000, 800, FlxColor.WHITE);
+						bgSpace.alpha = 0;
+						bgSpace.x -= 350;
+						bgSpace.y += 50;
+						bgSpace.scrollFactor.set(1, 1);
+						bgSpace.scale.x = 1.5;
+						bgSpace.scale.y = 1.5;
+						if (FlxG.save.data.visualDistractions && FlxG.save.data.visualEffects)
+							create(bgSpace);
 					}
-				}
 
-				var streetBehind:NewSprite = new NewSprite(-40, 50, 'philly/behindTrain', 'maps');
-				if (FlxG.save.data.visualDistractions)
-					create(streetBehind);
+					var ground:NewSprite = new NewSprite(-420, -150, 'tankDesert/tankGround', 'maps', true, 1, 1, 1);
+					NewSprite.SpriteComplement.setVariables(ground, true, 1.15);
+					create(ground);
 
-				phillyTrain = new NewSprite(2000, 360, 'philly/train', 'maps');
-				if (FlxG.save.data.visualDistractions)
-					create(phillyTrain);
+					tankBop1 = new NewSprite(-500, 650, 'tankDesert/tank0', 'maps', true, 1, 1.7, 1.5, ['fg tankhead far right instance 1'], 24, true);
+					tankBop2 = new NewSprite(-300, 750, 'tankDesert/tank1', 'maps', true, 1, 2.0, 0.2, ['fg tankhead 5 instance 1'], 24, true);
+					tankBop3 = new NewSprite(450, 940, 'tankDesert/tank2', 'maps', true, 1, 1.5, 1.5, ['foreground man 3 instance 1'], 24, true);
+					tankBop4 = new NewSprite(1300, 1200, 'tankDesert/tank3', 'maps', true, 1, 3.5, 2.5, ['fg tankhead 4 instance 1'], 24, true);
+					tankBop5 = new NewSprite(1300, 900, 'tankDesert/tank4', 'maps', true, 1, 1.5, 1.5, ['fg tankman bobbin 3 instance 1'], 24, true);
+					tankBop6 = new NewSprite(1620, 700, 'tankDesert/tank5', 'maps', true, 1, 1.5, 1.5, ['fg tankhead far right instance 1'], 24, true);
+					tankBops = new FlxTypedGroup();
+					tankBops.add(tankBop1);
+					tankBops.add(tankBop2);
+					tankBops.add(tankBop3);
+					tankBops.add(tankBop4);
+					tankBops.add(tankBop5);
+					tankBops.add(tankBop6);
+					Actions.PlaySprMapAnim(tankWatchtower, 'watchtower gradient color instance 1', true);
+					Actions.PlaySprMapAnim(tankBop1, 'fg tankhead far right instance 1', true);
+					Actions.PlaySprMapAnim(tankBop2, 'fg tankhead 5 instance 1', true);
+					Actions.PlaySprMapAnim(tankBop3, 'foreground man 3 instance 1', true);
+					Actions.PlaySprMapAnim(tankBop4, 'fg tankhead 4 instance 1', true);
+					Actions.PlaySprMapAnim(tankBop5, 'fg tankman bobbin 3 instance 1', true);
+					Actions.PlaySprMapAnim(tankBop6, 'fg tankhead far right instance 1', true);
+				case 'nevadaSpr':
+					var citys:NewSprite = new NewSprite(-600, -200, 'nevada/citys', 'maps', true, 1, 0.9, 0.9);
+					create(citys);
 
-				trainSound = new FlxSound().loadEmbedded(Paths.sound('philly/train_passes', 'maps'));
-				FlxG.sound.list.add(trainSound);
+					var bigRock:NewSprite = new NewSprite(-600, -400, 'nevada/bigRocks', 'maps', true, 1, 0.9, 0.9);
+					NewSprite.SpriteComplement.setVariables(bigRock, true, 1.1, null, null, null, null, false);
+					create(bigRock);
 
-				var street:NewSprite = new NewSprite(-40, streetBehind.y, 'philly/street', 'maps');
-				create(street);
-			case 'limoSpr':
-				var skyBG:NewSprite = new NewSprite(-120, -50, 'limo/limoSunset', 'maps', true, 1, 0.1, 0.1);
-				create(skyBG);
+					var rockFloor:NewSprite = new NewSprite(-650, 600, 'nevada/rockFloor', 'maps', true, 1, 0.9, 0.9);
+					NewSprite.SpriteComplement.setVariables(rockFloor, true, 1.1, null, null, null, null, false);
+					create(rockFloor);
 
-				var bgLimo:NewSprite = new NewSprite(-200, 480, 'limo/bgLimo', 'maps', true, 1, 0.4, 0.4, ['background limo pink'], 24, true);
-				if (FlxG.save.data.visualDistractions)
-					create(bgLimo);
-
-				if (FlxG.save.data.visualDistractions){
-					grpLimoDancers = new FlxTypedGroup<BackgroundDancer>();
-					create(grpLimoDancers);
-					for (i in 0...5){
-						var dancer:BackgroundDancer = new BackgroundDancer((370 * i) + 130, bgLimo.y - 400, 0.4, 0.4);
-						grpLimoDancers.add(dancer);
-					}
-				}
-				limo = new NewSprite(-120, 550, 'limo/limoDrive', 'maps', true, 1, 1, 1, ['Limo stage'], 24, true);
-				fastCar = new NewSprite(-300, 160, 'limo/fastCarLol', 'maps');
-				fastCar.active = true;
-			case 'mallSpr':
-				var bg:NewSprite = new NewSprite(-1000, -500, 'mall/bgWalls', 'maps', true, 1, 0.2, 0.2);
-				NewSprite.SpriteComplement.setVariables(bg, true, 0.8);
-				create(bg);
-
-				upperBoppers = new NewSprite(-240, -90, 'mall/upperBop', 'maps', true, 1, 0.33, 0.33, ['Upper Crowd Bob']);
-				NewSprite.SpriteComplement.setVariables(upperBoppers, true, 0.85);
-				if (FlxG.save.data.visualDistractions)
-					create(upperBoppers);
-
-				var bgEscalator:NewSprite = new NewSprite(-1100, -600, 'mall/bgEscalator', 'maps', true, 1, 0.3, 0.3);
-				NewSprite.SpriteComplement.setVariables(bgEscalator, true, 0.9);
-				if (FlxG.save.data.visualDistractions)
-					create(bgEscalator);
-
-				var tree:NewSprite = new NewSprite(-370, -250, 'mall/christmasTree', 'maps', true, 1, 0.4, 0.4);
-				if (FlxG.save.data.visualDistractions)
-					create(tree);
-
-				bottomBoppers = new NewSprite(-300, 140, 'mall/bottomBop', 'maps', true, 1, 0.9, 0.9, ['Bottom Level Boppers Idle', 'Bottom Level Boppers HEY!!']);
-				NewSprite.SpriteComplement.setVariables(bottomBoppers, true, 1);
-				if (FlxG.save.data.visualDistractions)
-					create(bottomBoppers);
-
-				var fgSnow:NewSprite = new NewSprite(-600, 700, 'mall/fgSnow', 'maps');
-				create(fgSnow);
-
-				santa = new NewSprite(-840, 150, 'mall/santa', 'maps', true, 1, 1, 1, ['santa idle in fear']);
-				if (FlxG.save.data.visualDistractions)
-					create(santa);
-
-				if (FlxG.save.data.visualDistractions && FlxG.save.data.visualEffects){
-					//RIGHT
-					snowEmitterR = new FlxEmitter(FlxG.width / 2 - 760, FlxG.height / 2 - 760);
-					snowEmitterR.makeParticles(4, 4, FlxColor.WHITE, 500);
-					snowEmitterR.launchAngle.set(23, 167);
-					snowEmitterR.launchMode = FlxEmitterMode.CIRCLE;
-					snowEmitterR.velocity.set(200, -100, 200, 100);
-					snowEmitterR.lifespan.set(300, 300);
-					snowEmitterR.start(false, 0.1);
-					//CENTER
-					snowEmitterC = new FlxEmitter(FlxG.width / 2, FlxG.height / 2 - 512);
-					snowEmitterC.makeParticles(4, 4, FlxColor.WHITE, 500);
-					snowEmitterC.launchAngle.set(0, 180);
-					snowEmitterC.launchMode = FlxEmitterMode.CIRCLE;
-					snowEmitterC.velocity.set(200, -100, 200, 100);
-					snowEmitterC.lifespan.set(300, 300);
-					snowEmitterC.start(false, 0.1);
-					//LEFT
-					snowEmitterL = new FlxEmitter(FlxG.width / 2  + 512, FlxG.height / 2 - 512);
-					snowEmitterL.makeParticles(4, 4, FlxColor.WHITE, 500);
-					snowEmitterL.launchAngle.set(23, 167);
-					snowEmitterL.launchMode = FlxEmitterMode.CIRCLE;
-					snowEmitterL.velocity.set(200, -100, 200, 100);
-					snowEmitterL.lifespan.set(300, 300);
-					snowEmitterL.start(false, 0.1);
-					create(snowEmitterR);
-					create(snowEmitterC);
-					create(snowEmitterL);
-				}
-			case 'mallEvilSpr':
-				var bg:NewSprite = new NewSprite(-400, -500, 'mall/evil/evilBG', 'maps', true, 1, 0.2, 0.2);
-				NewSprite.SpriteComplement.setVariables(bg, true, 0.8);
-				create(bg);
-
-				var evilTree:NewSprite = new NewSprite(300, -300, 'mall/evil/evilTree', 'maps', true, 1, 0.2, 0.2);
-				if (FlxG.save.data.visualDistractions)
-					create(evilTree);
-					
-				var evilSnow:NewSprite = new NewSprite(-200, 700, 'mall/evil/evilSnow', 'maps');
-				create(evilSnow);
-
-				if (FlxG.save.data.visualDistractions && FlxG.save.data.visualEffects){
-					//RIGHT
-					snowEmitterR = new FlxEmitter(FlxG.width / 2 - 760, FlxG.height / 2 - 760);
-					snowEmitterR.makeParticles(4, 4, FlxColor.RED, 500);
-					snowEmitterR.launchAngle.set(23, 167);
-					snowEmitterR.launchMode = FlxEmitterMode.CIRCLE;
-					snowEmitterR.velocity.set(200, -100, 200, 100);
-					snowEmitterR.lifespan.set(300, 300);
-					snowEmitterR.start(false, 0.1);
-					//CENTER
-					snowEmitterC = new FlxEmitter(FlxG.width / 2, FlxG.height / 2 - 512);
-					snowEmitterC.makeParticles(4, 4, FlxColor.RED, 500);
-					snowEmitterC.launchAngle.set(0, 180);
-					snowEmitterC.launchMode = FlxEmitterMode.CIRCLE;
-					snowEmitterC.velocity.set(200, -100, 200, 100);
-					snowEmitterC.lifespan.set(300, 300);
-					snowEmitterC.start(false, 0.1);
-					//LEFT
-					snowEmitterL = new FlxEmitter(FlxG.width / 2  + 512, FlxG.height / 2 - 512);
-					snowEmitterL.makeParticles(4, 4, FlxColor.RED, 500);
-					snowEmitterL.launchAngle.set(23, 167);
-					snowEmitterL.launchMode = FlxEmitterMode.CIRCLE;
-					snowEmitterL.velocity.set(200, -100, 200, 100);
-					snowEmitterL.lifespan.set(300, 300);
-					snowEmitterL.start(false, 0.1);
-					create(snowEmitterR);
-					create(snowEmitterC);
-					create(snowEmitterL);
-				}
-			case 'schoolSpr':
-				var bgSky:NewSprite = new NewSprite(0, 0, 'school/weebSky', 'maps', true, 1, 0.1, 0.1);
-				var widShit = Std.int(bgSky.width * 6);
-				bgSky.setGraphicSize(widShit);
-				NewSprite.SpriteComplement.setVariables(bgSky, true);
-				create(bgSky);
-
-				var bgSchool:NewSprite = new NewSprite(-200, 0, 'school/weebSchool', 'maps', true, 1, 0.6, 0.9);
-				bgSchool.setGraphicSize(widShit);
-				NewSprite.SpriteComplement.setVariables(bgSchool, true);
-				create(bgSchool);
-
-				var bgStreet:NewSprite = new NewSprite(-200, 0, 'school/weebStreet', 'maps', true, 1, 0.95, 0.95);
-				bgStreet.setGraphicSize(widShit);
-				NewSprite.SpriteComplement.setVariables(bgStreet, true);
-				create(bgStreet);
-
-				var fgTrees:NewSprite = new NewSprite(-200 + 170, 130, 'school/weebTreesBack', 'maps', true, 1, 0.9, 0.9);
-				fgTrees.setGraphicSize(Std.int(widShit * 0.8));
-				NewSprite.SpriteComplement.setVariables(fgTrees, true);
-				if (FlxG.save.data.visualEffects)
-					create(fgTrees);
-
-				var bgTrees:FlxSprite = new FlxSprite(-200 - 380, -800);
-				var treetex = Paths.getPackerAtlas('school/weebTrees', 'maps');
-				bgTrees.frames = treetex;
-				bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
-				bgTrees.animation.play('treeLoop');
-				bgTrees.scrollFactor.set(0.85, 0.85);
-				bgTrees.setGraphicSize(Std.int(widShit * 1.4));
-				NewSprite.SpriteComplement.setVariables(bgTrees, true, null, null, null, null, null, false);
-				if (FlxG.save.data.visualEffects)
-					create(bgTrees);
-
-				var treeLeaves:NewSprite = new NewSprite(-200, -40, 'school/petals', 'maps', true, 1, 0.85, 0.85, ['PETALS ALL'], 24, true);
-				treeLeaves.setGraphicSize(widShit);
-				NewSprite.SpriteComplement.setVariables(treeLeaves, true);
-				if (FlxG.save.data.visualEffects)
-					create(treeLeaves);
-
-				bgGirls = new BackgroundGirls(-100, 190, 0.9, 0.9);
-				if (PlayState.SONG.song.toLowerCase() == 'roses')
-					bgGirls.getScared();
-				bgGirls.setGraphicSize(Std.int(bgGirls.width * daPixelZoom));
-				NewSprite.SpriteComplement.setVariables(bgGirls, true);
-				if (FlxG.save.data.visualDistractions)
-					create(bgGirls);
-			case 'schoolEvilSpr':
-				var evilSchool:NewSprite = new NewSprite(400, 200, 'school/evil/animatedEvilSchool', 'maps', true, 1, 0.8, 0.9, ['background 2'], 24, true);
-				evilSchool.scale.set(6, 6);
-				create(evilSchool);
-			case 'tankDesertSpr':
-				if (PlayState.SONG.song.toLowerCase() == 'stress'){
-					picoSpeakerShotingStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/PicoSpeakerShootSteps')));
-					johnRunningStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/JohnRunnersSpawnSteps')));
-				}
-
-				sky = new NewSprite(-400, -400, 'tankDesert/tankSky', 'maps', true, 1, 0, 0);
-				NewSprite.SpriteComplement.setVariables(sky, false, 1.5);
-				create(sky);
-
-				var clouds:NewSprite = new NewSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20), 'tankDesert/tankClouds', 'maps', true, 1, 0.1, 0.1);
-				clouds.velocity.x = FlxG.random.float(5, 15);
-				NewSprite.SpriteComplement.setVariables(clouds, true);
-				if (FlxG.save.data.visualDistractions)
-					create(clouds);
-
-				var mountains:NewSprite = new NewSprite(-300, -20, 'tankDesert/tankMountains', 'maps', true, 1, 0.2, 0.2);
-				NewSprite.SpriteComplement.setVariables(mountains, true, 1.2);
-				create(mountains);
-
-				var buildings:NewSprite = new NewSprite(-200, 0, 'tankDesert/tankBuildings', 'maps', true, 1, 0.3, 0.3);
-				NewSprite.SpriteComplement.setVariables(buildings, true, 1.1);
-				if (FlxG.save.data.visualDistractions)
-					create(buildings);
-
-				var ruins:NewSprite = new NewSprite(-200, 0, 'tankDesert/tankRuins', 'maps', true, 1, 0.35, 0.35);
-				NewSprite.SpriteComplement.setVariables(ruins, true, 1.1);
-				if (FlxG.save.data.visualDistractions)
-					create(ruins);
-
-				var smokeLeft:NewSprite = new NewSprite(-200, -100, 'tankDesert/smokeLeft', 'maps', true, 1, 0.4, 0.4, ['SmokeBlurLeft '], 24, true);
-				if (FlxG.save.data.visualDistractions)
-					create(smokeLeft);
-
-				var smokeRight:NewSprite = new NewSprite(1100, -100, 'tankDesert/smokeRight', 'maps', true, 1, 0.4, 0.4, ['SmokeRight '], 24, true);
-				if (FlxG.save.data.visualDistractions)
-					create(smokeRight);
-
-				var tankWatchtower:NewSprite = new NewSprite(100, 120, 'tankDesert/tankWatchtower', 'maps', true, 1, 0.5, 0.5, ['watchtower gradient color instance 1'], 24, true);
-				if (FlxG.save.data.visualDistractions)
-					create(tankWatchtower);
-
-				tankRolling = new NewSprite(300, 300, 'tankDesert/tankRolling', 'maps', true, 1, 0.5, 0.5, ['BG tank w lighting instance 1'], 24, true);
-				if (FlxG.save.data.visualDistractions)
-					create(tankRolling);
-
-				johnRun = new FlxTypedGroup<JohnRunnerBG>();
-				if (FlxG.save.data.visualDistractions && PlayState.SONG.song.toLowerCase() == 'stress')
-					create(johnRun);
-
-				if (PlayState.SONG.song.toLowerCase() == 'guns'){
-					bgSpace = new FlxSprite().makeGraphic(5000, 800, FlxColor.WHITE);
-					bgSpace.alpha = 0;
-					bgSpace.x -= 350;
-					bgSpace.y += 50;
-					bgSpace.scrollFactor.set(1, 1);
-					bgSpace.scale.x = 1.5;
-					bgSpace.scale.y = 1.5;
-					if (FlxG.save.data.visualDistractions && FlxG.save.data.visualEffects)
-						create(bgSpace);
-				}
-
-				var ground:NewSprite = new NewSprite(-420, -150, 'tankDesert/tankGround', 'maps', true, 1, 1, 1);
-				NewSprite.SpriteComplement.setVariables(ground, true, 1.15);
-				create(ground);
-
-				tankBop1 = new NewSprite(-500, 650, 'tankDesert/tank0', 'maps', true, 1, 1.7, 1.5, ['fg tankhead far right instance 1'], 24, true);
-				tankBop2 = new NewSprite(-300, 750, 'tankDesert/tank1', 'maps', true, 1, 2.0, 0.2, ['fg tankhead 5 instance 1'], 24, true);
-				tankBop3 = new NewSprite(450, 940, 'tankDesert/tank2', 'maps', true, 1, 1.5, 1.5, ['foreground man 3 instance 1'], 24, true);
-				tankBop4 = new NewSprite(1300, 1200, 'tankDesert/tank3', 'maps', true, 1, 3.5, 2.5, ['fg tankhead 4 instance 1'], 24, true);
-				tankBop5 = new NewSprite(1300, 900, 'tankDesert/tank4', 'maps', true, 1, 1.5, 1.5, ['fg tankman bobbin 3 instance 1'], 24, true);
-				tankBop6 = new NewSprite(1620, 700, 'tankDesert/tank5', 'maps', true, 1, 1.5, 1.5, ['fg tankhead far right instance 1'], 24, true);
-				tankBops = new FlxTypedGroup();
-				tankBops.add(tankBop1);
-				tankBops.add(tankBop2);
-				tankBops.add(tankBop3);
-				tankBops.add(tankBop4);
-				tankBops.add(tankBop5);
-				tankBops.add(tankBop6);
-				Actions.PlaySprMapAnim(tankWatchtower, 'watchtower gradient color instance 1', true);
-				Actions.PlaySprMapAnim(tankBop1, 'fg tankhead far right instance 1', true);
-				Actions.PlaySprMapAnim(tankBop2, 'fg tankhead 5 instance 1', true);
-				Actions.PlaySprMapAnim(tankBop3, 'foreground man 3 instance 1', true);
-				Actions.PlaySprMapAnim(tankBop4, 'fg tankhead 4 instance 1', true);
-				Actions.PlaySprMapAnim(tankBop5, 'fg tankman bobbin 3 instance 1', true);
-				Actions.PlaySprMapAnim(tankBop6, 'fg tankhead far right instance 1', true);
-			case 'nevadaSpr':
-				var citys:NewSprite = new NewSprite(-600, -200, 'nevada/citys', 'maps', true, 1, 0.9, 0.9);
-				create(citys);
-
-				var bigRock:NewSprite = new NewSprite(-600, -400, 'nevada/bigRocks', 'maps', true, 1, 0.9, 0.9);
-				NewSprite.SpriteComplement.setVariables(bigRock, true, 1.1, null, null, null, null, false);
-				create(bigRock);
-
-				var rockFloor:NewSprite = new NewSprite(-650, 600, 'nevada/rockFloor', 'maps', true, 1, 0.9, 0.9);
-				NewSprite.SpriteComplement.setVariables(rockFloor, true, 1.1, null, null, null, null, false);
-				create(rockFloor);
-
-				tent = new NewSprite(-500, -100, 'nevada/tent', 'maps', true, 1, 0.9, 0.9);
-				NewSprite.SpriteComplement.setVariables(tent, true, 1.1);
+					tent = new NewSprite(-500, -100, 'nevada/tent', 'maps', true, 1, 0.9, 0.9);
+					NewSprite.SpriteComplement.setVariables(tent, true, 1.1);
+			}
 		}
 	}
 	public static function mapSprEvent(?Starting:Bool = false, ?TypeSpr:String):Void{
@@ -823,8 +805,7 @@ class TrackMap extends MusicBeatState{
 				});
 				Actions.PlaySound(diretoryShit + NameSay + soundIntroShit, 'shared', 0.7);
 			}
-			if (NumIntro >= 0 && NumIntro < 3) 
-				HealthIcon.iconBumping(PlayState.instance.boyfriend, PlayState.instance.dad);
+			if (NumIntro >= 0 && NumIntro < 3) HealthIcon.iconBumping(PlayState.instance.boyfriend, PlayState.instance.dad);
 			Actions.PlayCharAnim(PlayState.instance.dad);
 			Actions.PlayCharAnim(PlayState.instance.gf);
 			Actions.PlayCharAnim(PlayState.instance.boyfriend, 'idle');

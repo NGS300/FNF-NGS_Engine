@@ -174,6 +174,7 @@ class PlayState extends MusicBeatState{
 	public var detailsText:String = "";
 	public var detailsPausedText:String = "";
 	#end
+	public static var pauseMusic:FlxSound;
 	public var paused:Bool = false;
 	var startedCountdown:Bool = false;
 	var canPause:Bool = true;
@@ -557,7 +558,6 @@ class PlayState extends MusicBeatState{
 			}
 		}
 		(health >= 0 ? healthPercent = Math.round(health * 50) : healthPercent = 0); // Float Health to Health Percent
-		//if (health >= 0) healthPercent = Math.round(health * 50); else healthPercent = 0; // Float Health to Health Percent
 		if (combo > highestCombo){highestCombo = combo; TweenHitHUD('Press', 1.1);} // Max Combo System and Tween Max Combo
 		if (FlxG.save.data.hpHUDPercent){
 			switch (SONG.song.toLowerCase()){
@@ -571,6 +571,10 @@ class PlayState extends MusicBeatState{
 			persistentUpdate = false;
 			persistentDraw = true;
 			paused = true;
+			pauseMusic = new FlxSound().loadEmbedded(Paths.music('breakfast'), true, true);
+			pauseMusic.volume = 0;
+			pauseMusic.play(false, FlxG.random.int(0, Std.int(pauseMusic.length / 2)));
+			FlxG.sound.list.add(pauseMusic);
 			openSubState(new PauseSubState());
 		}
 		if ((FlxG.keys.anyJustPressed([FlxKey.fromString(FlxG.save.data.chartingBind)])) && FlxG.save.data.moddingTools){ // Going to The ChartingState
@@ -2279,17 +2283,17 @@ class PlayState extends MusicBeatState{
 			add(trackInfo);
 			add(trackName);
 			add(artistName);
-			new FlxTimer().start(0.325, function(tmr:FlxTimer){
+			new FlxTimer().start(0.25, function(tmr:FlxTimer){
 				Actions.Tween(boxSpr, {x: -100}, durationIn, {type:PERSIST, ease: FlxEase.backInOut});
 				Actions.Tween(trackInfo, {x: -1}, durationIn, {type:PERSIST, ease: FlxEase.backInOut});
 				Actions.Tween(trackName, {x: -1}, durationIn, {type:PERSIST, ease: FlxEase.backInOut});
 				Actions.Tween(artistName, {x: -1}, durationIn, {type:PERSIST, ease: FlxEase.backInOut});
-				new FlxTimer().start(5.125, function(tmr:FlxTimer){
-					Actions.Tween(boxSpr, {x: -550}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
-					Actions.Tween(trackInfo, {x: -200}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
-					Actions.Tween(trackName, {x: -200}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
-					Actions.Tween(artistName, {x: -200}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
-					new FlxTimer().start(5.565, function(tmr:FlxTimer){
+				new FlxTimer().start(5, function(tmr:FlxTimer){
+					Actions.Tween(boxSpr, {x: -600}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
+					Actions.Tween(trackInfo, {x: -500}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
+					Actions.Tween(trackName, {x: -500}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
+					Actions.Tween(artistName, {x: -500}, durationOut, {type:PERSIST, ease: FlxEase.backInOut});
+					new FlxTimer().start(3, function(tmr:FlxTimer){
 						boxSpr.destroy();
 						trackInfo.destroy(); 
 						trackName.destroy();
