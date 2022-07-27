@@ -123,6 +123,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix EngineMark Alpha Error
 - Fix Pause Duplication
 - Fix Endless Score (I Think)
+- Fix Reset Combo in Rating Bad & Shit
+- Fix Alt + Tab Bug MP4 Cutscenes
 
 ## [Beta 0.9] 18/03/2022
 ### Added

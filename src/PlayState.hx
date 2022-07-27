@@ -55,8 +55,6 @@ class PlayState extends MusicBeatState{
 	private var totalNotesHit:Float = 0;
 	private var totalNotesHitDefault:Float = 0;
 	private var totalPlayed:Int = 0;
-
-	private var ss:Bool = false;
 	public var vocals:FlxSound;
 
 	// Chars 
@@ -1869,32 +1867,28 @@ class PlayState extends MusicBeatState{
 			}
 			possibleNotes.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
 			var dontCheck = false;
-			for (i in 0...pressArray.length)
-				if (pressArray[i] && !directionList.contains(i))
-					dontCheck = true;
-			if (possibleNotes.length > 0 && !dontCheck){
-				if (!FlxG.save.data.newInput)
-					for (shit in 0...pressArray.length)
-						if (pressArray[shit] && !directionList.contains(shit))
-							TrackMap.oldInput(shit);
-				for (coolNote in possibleNotes){
-					if (pressArray[coolNote.noteData]){
-						if (mashViolations != 0)
-							mashViolations--;
-						playerNoteHit(coolNote);
+			for (i in 0...pressArray.length) if (pressArray[i] && !directionList.contains(i)) dontCheck = true;
+			if (possibleNotes.length > 0){
+				if (dontCheck){
+					if (FlxG.save.data.newInput && !Client.Public.botplay){
+						if (mashViolations > 8){
+							missTxt.color = 0xFF6f0000;
+							TrackMap.oldInput(0);
+						}else
+							mashViolations++;
+					}
+				}else{
+					if (!FlxG.save.data.newInput){
+						for (shit in 0...pressArray.length) if (pressArray[shit] && !directionList.contains(shit)) TrackMap.oldInput(shit);
+					}
+					for (coolNote in possibleNotes){ if (pressArray[coolNote.noteData]){
+							if (mashViolations != 0) mashViolations--;
+							playerNoteHit(coolNote);
+						}
 					}
 				}
-			}else if (!FlxG.save.data.newInput){
-				for (shit in 0...pressArray.length)
-					if (pressArray[shit])
-						TrackMap.oldInput(shit);
-			}
-			if (dontCheck && possibleNotes.length > 0 && FlxG.save.data.newInput && !Client.Public.botplay){
-				if (mashViolations > 8){
-					missTxt.color = 0xFF6f0000;
-					TrackMap.oldInput(0);
-				}else
-					mashViolations++;
+			}else if (!FlxG.save.data.newInput && dontCheck){
+				for (shit in 0...pressArray.length) if (pressArray[shit]) TrackMap.oldInput(shit);
 			}
 		}
 		playerStrums.forEach(function(spr:FlxSprite){
@@ -2129,18 +2123,13 @@ class PlayState extends MusicBeatState{
 			switch (ratingName){
 				case 'shit':
 					score = -300;
-					ss = false;
-					combo = 0;
 					shits++;
 				case 'bad':
 					ratingName = 'bad';
-					ss = false;
-					score = 0;
 					bads++;
 				case 'good':
 					ratingName = 'good';
 					score = 200;
-					ss = false;
 					goods++;
 				case 'sick':
 					score = 350;
