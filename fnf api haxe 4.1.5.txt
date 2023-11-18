@@ -1,0 +1,28 @@
+haxe: 4.1.5
+API Version Using:
+
+actuate: 1,8,9
+box2d: 1,2,3
+clone: ?
+discord_rpc: git
+extension-webm: git
+flixel: 4,11,0
+flixel-addons: git or (no tink 2,11,0)
+flixel-demos: 2,8,1
+flixel-templates: 2,6,6
+flixel-tools: 1,5,1
+flixel-ui: 2,4,0
+Funkin-android: ?
+hscript: 2,4,0
+hxCodec: git
+hxcpp: 4,2,1
+layout: 1,2,1
+lime: 7,9,0 or 8,0,0
+lime-samples: 7,0,0
+newgrounds: 1,1,5
+openfl: 9,1,0 pr 9,2,0
+openfl-samples: 8,7,0
+openfl-webm: 0,0,4
+systools: 1,1,0
+test-adapter: ?
+polymod: git
